@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L L80-M39:L80-M39 U?
+L STM32WL55JC_pcb_design-rescue:L80-M39-L80-M39 U?
 U 1 1 61322FDC
 P 5750 4450
 AR Path="/61322FDC" Ref="U?"  Part="1" 
@@ -33,7 +33,7 @@ F 9 "Radial Can  Quectel" H 5750 4450 50  0001 L BNN "PACKAGE"
 	-1   0    0    1   
 $EndComp
 $Comp
-L LIS3DHTR:LIS3DHTR U?
+L STM32WL55JC_pcb_design-rescue:LIS3DHTR-LIS3DHTR U?
 U 1 1 61322FE6
 P 5800 2800
 AR Path="/61322FE6" Ref="U?"  Part="1" 
