@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 3 6
 Title ""
 Date ""
 Rev ""
@@ -343,4 +343,61 @@ Text HLabel 6600 4050 2    50   Input ~ 0
 TX
 Text HLabel 6600 4350 2    50   Input ~ 0
 RX
+$Comp
+L HTS221TR:HTS221TR IC?
+U 1 1 6141EBB5
+P 8000 4050
+F 0 "IC?" H 8800 5131 50  0000 C CNN
+F 1 "HTS221TR" H 8800 5040 50  0000 C CNN
+F 2 "HLGA-6L" H 9450 4750 50  0001 L CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/4d/9a/9c/ad/25/07/42/34/DM00116291.pdf/files/DM00116291.pdf/jcr:content/translations/en.DM00116291.pdf" H 9450 4650 50  0001 L CNN
+F 4 "Humidity and Temperature Sensor HLGA6 STMicroelectronics HTS221TR Temperature & Humidity Sensor, -40  +120 C, 6-Pin HLGA" H 9450 4550 50  0001 L CNN "Description"
+F 5 "" H 9450 4450 50  0001 L CNN "Height"
+F 6 "STMicroelectronics" H 9450 4350 50  0001 L CNN "Manufacturer_Name"
+F 7 "HTS221TR" H 9450 4250 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "511-HTS221TR" H 9450 4150 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/HTS221TR?qs=9MuLHSklicqAHntRLffjZQ%3D%3D" H 9450 4050 50  0001 L CNN "Mouser Price/Stock"
+F 10 "HTS221TR" H 9450 3950 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/hts221tr/stmicroelectronics" H 9450 3850 50  0001 L CNN "Arrow Price/Stock"
+	1    8000 4050
+	1    0    0    -1  
+$EndComp
+Text HLabel 9600 4150 2    50   Input ~ 0
+SDA
+Text HLabel 8000 4150 0    50   Input ~ 0
+SCL
+$Comp
+L power:+3.3V #PWR?
+U 1 1 61420A78
+P 8000 4050
+AR Path="/61420A78" Ref="#PWR?"  Part="1" 
+AR Path="/61317136/61420A78" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8000 3900 50  0001 C CNN
+F 1 "+3.3V" H 8015 4223 50  0000 C CNN
+F 2 "" H 8000 4050 50  0001 C CNN
+F 3 "" H 8000 4050 50  0001 C CNN
+	1    8000 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 4050 9900 4050
+Wire Wire Line
+	9900 4050 9900 4200
+$Comp
+L power:GNDREF #PWR?
+U 1 1 61421FD9
+P 9900 4200
+AR Path="/61421FD9" Ref="#PWR?"  Part="1" 
+AR Path="/61317136/61421FD9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9900 3950 50  0001 C CNN
+F 1 "GNDREF" H 9905 4027 50  0000 C CNN
+F 2 "" H 9900 4200 50  0001 C CNN
+F 3 "" H 9900 4200 50  0001 C CNN
+	1    9900 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 4750 8900 4750
+Text HLabel 8900 4750 2    50   Input ~ 0
+TempHumid_DRDY
 $EndSCHEMATC

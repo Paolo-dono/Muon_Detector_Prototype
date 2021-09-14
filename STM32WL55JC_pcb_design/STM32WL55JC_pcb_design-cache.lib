@@ -186,6 +186,31 @@ X Pin_9 9 200 -200 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Connector_Conn_Coaxial
+#
+DEF Connector_Conn_Coaxial J 0 40 Y N 1 F N
+F0 "J" 10 120 50 H V C CNN
+F1 "Connector_Conn_Coaxial" 115 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *BNC*
+ *SMA*
+ *SMB*
+ *SMC*
+ *Cinch*
+$ENDFPLIST
+DRAW
+A -2 0 71 1636 0 0 1 10 N -70 20 70 0
+A -1 0 71 0 -1638 0 1 10 N 70 0 -70 -20
+C 0 0 20 0 1 8 N
+P 2 0 1 0 -100 0 -20 0 N
+P 2 0 1 0 0 -100 0 -70 N
+X In 1 -200 0 100 R 50 50 1 1 P
+X Ext 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_Generic_Conn_01x06
 #
 DEF Connector_Generic_Conn_01x06 J 0 40 Y N 1 F N
@@ -353,6 +378,24 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_C_Small
+#
+DEF Device_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_Crystal
 #
 DEF Device_Crystal Y 0 40 N N 1 F N
@@ -418,6 +461,29 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device_L_Small
+#
+DEF Device_L_Small L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "Device_L_Small" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_R
 #
 DEF Device_R R 0 0 N Y 1 F N
@@ -473,6 +539,31 @@ P 3 0 1 10 -50 -50 -50 50 -30 50 N
 P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# HTS221TR_HTS221TR
+#
+DEF HTS221TR_HTS221TR IC 0 30 Y Y 1 F N
+F0 "IC" 1450 900 50 H V L CNN
+F1 "HTS221TR_HTS221TR" 1450 800 50 H V L CNN
+F2 "HLGA-6L" 1450 700 50 H I L CNN
+F3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/4d/9a/9c/ad/25/07/42/34/DM00116291.pdf/files/DM00116291.pdf/jcr:content/translations/en.DM00116291.pdf" 1450 600 50 H I L CNN
+F4 "Humidity and Temperature Sensor HLGA6 STMicroelectronics HTS221TR Temperature & Humidity Sensor, -40  +120 C, 6-Pin HLGA" 1450 500 50 H I L CNN "Description"
+F5 "STMicroelectronics" 1450 300 50 H I L CNN "Manufacturer_Name"
+F6 "HTS221TR" 1450 200 50 H I L CNN "Manufacturer_Part_Number"
+F7 "511-HTS221TR" 1450 100 50 H I L CNN "Mouser Part Number"
+F8 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/HTS221TR?qs=9MuLHSklicqAHntRLffjZQ%3D%3D" 1450 0 50 H I L CNN "Mouser Price/Stock"
+F9 "HTS221TR" 1450 -100 50 H I L CNN "Arrow Part Number"
+F10 "https://www.arrow.com/en/products/hts221tr/stmicroelectronics" 1450 -200 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 700 1400 700 1400 -500 200 -500 200 700 N
+X VDD 1 0 0 200 R 50 50 0 0 P
+X SCL/SPC 2 0 -100 200 R 50 50 0 0 P
+X DRDY 3 800 -700 200 U 50 50 0 0 P
+X SDA/SDI/SDO 4 1600 -100 200 L 50 50 0 0 P
+X GND 5 1600 0 200 L 50 50 0 0 P
+X SPI_ENABLE 6 800 900 200 D 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
