@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 4 7
 Title ""
 Date ""
 Rev ""
@@ -531,4 +531,35 @@ F 3 "" H 8650 4050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6000 3650 6450 3650
+Wire Wire Line
+	5350 4900 5550 4900
+Wire Wire Line
+	5550 4900 5550 5100
+Connection ~ 5550 4900
+Wire Wire Line
+	5550 4900 5750 4900
+$Comp
+L Device:C_Small C?
+U 1 1 6166D0A0
+P 5550 5200
+F 0 "C?" H 5642 5246 50  0000 L CNN
+F 1 "1pF" H 5642 5155 50  0000 L CNN
+F 2 "" H 5550 5200 50  0001 C CNN
+F 3 "~" H 5550 5200 50  0001 C CNN
+	1    5550 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 5300 5550 5650
+$Comp
+L power:GNDREF #PWR?
+U 1 1 6166E9E7
+P 5550 5650
+F 0 "#PWR?" H 5550 5400 50  0001 C CNN
+F 1 "GNDREF" H 5555 5477 50  0000 C CNN
+F 2 "" H 5550 5650 50  0001 C CNN
+F 3 "" H 5550 5650 50  0001 C CNN
+	1    5550 5650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
