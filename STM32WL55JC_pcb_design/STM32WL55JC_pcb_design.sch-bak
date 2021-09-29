@@ -1407,15 +1407,16 @@ Wire Wire Line
 Text GLabel 3150 2850 2    50   Input ~ 0
 TempHumid_DRDY
 $Sheet
-S 2200 2200 800  850 
+S 2200 2200 800  900 
 U 61317136
-F0 "Sensors" 50
-F1 "Sensors.sch" 50
+F0 "Sensors + RTC" 50
+F1 "Sensors+RTC.sch" 50
 F2 "SDA" I R 3000 2350 50 
 F3 "SCL" I R 3000 2450 50 
 F4 "TX" I R 3000 2600 50 
 F5 "RX" I R 3000 2700 50 
 F6 "TempHumid_DRDY" I R 3000 2850 50 
+F7 "5V" I R 3000 3000 50 
 $EndSheet
 Text GLabel 5200 5100 0    50   Input ~ 0
 TempHumid_DRDY
@@ -1480,10 +1481,8 @@ F3 "GND" I R 1500 2400 50
 F4 "29V5" I R 1500 2750 50 
 F5 "5V" I R 1500 2850 50 
 $EndSheet
-$Sheet
-S 8800 5800 550  600 
-U 616239B7
-F0 "USB_connection" 50
-F1 "USB_connection.sch" 50
-$EndSheet
+Wire Wire Line
+	3000 3000 3150 3000
+Text GLabel 3150 3000 2    50   Input ~ 0
+5V
 $EndSCHEMATC

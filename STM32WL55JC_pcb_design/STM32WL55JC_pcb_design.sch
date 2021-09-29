@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -1480,12 +1480,6 @@ F2 "3.3V" I R 1500 2300 50
 F3 "GND" I R 1500 2400 50 
 F4 "29V5" I R 1500 2750 50 
 F5 "5V" I R 1500 2850 50 
-$EndSheet
-$Sheet
-S 8800 5800 550  600 
-U 616239B7
-F0 "USB_connection" 50
-F1 "USB_connection.sch" 50
 $EndSheet
 Wire Wire Line
 	3000 3000 3150 3000
