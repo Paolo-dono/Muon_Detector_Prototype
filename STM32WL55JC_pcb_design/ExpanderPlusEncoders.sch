@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -14,156 +14,156 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	2850 2500 2950 2500
+	2000 2500 2100 2500
 Wire Wire Line
-	2850 2600 2950 2600
+	2000 2600 2100 2600
 Wire Wire Line
-	2850 2700 2950 2700
+	2000 2700 2100 2700
 Wire Wire Line
-	2850 2800 2950 2800
+	2000 2800 2100 2800
 Wire Wire Line
-	2850 2900 2950 2900
+	2000 2900 2100 2900
 Wire Wire Line
-	2850 3000 2950 3000
+	2000 3000 2100 3000
 Wire Wire Line
-	2850 3100 2950 3100
+	2000 3100 2100 3100
 Wire Wire Line
-	2850 3200 2950 3200
+	2000 3200 2100 3200
 Wire Wire Line
-	2850 3400 2950 3400
+	2000 3400 2100 3400
 Wire Wire Line
-	2850 3300 2950 3300
-Text GLabel 2950 2500 2    50   Input ~ 0
+	2000 3300 2100 3300
+Text GLabel 2100 2500 2    50   Input ~ 0
 ENC1_1
-Text GLabel 2950 2600 2    50   Input ~ 0
+Text GLabel 2100 2600 2    50   Input ~ 0
 ENC1_2
-Text GLabel 2950 2700 2    50   Input ~ 0
+Text GLabel 2100 2700 2    50   Input ~ 0
 ENC1_3
-Text GLabel 2950 2800 2    50   Input ~ 0
+Text GLabel 2100 2800 2    50   Input ~ 0
 ENC1_4
-Text GLabel 2950 2900 2    50   Input ~ 0
+Text GLabel 2100 2900 2    50   Input ~ 0
 ENC2_1
-Text GLabel 2950 3000 2    50   Input ~ 0
+Text GLabel 2100 3000 2    50   Input ~ 0
 ENC2_2
-Text GLabel 2950 3100 2    50   Input ~ 0
+Text GLabel 2100 3100 2    50   Input ~ 0
 ENC2_3
-Text GLabel 2950 3200 2    50   Input ~ 0
+Text GLabel 2100 3200 2    50   Input ~ 0
 ENC2_4
 Wire Wire Line
-	3800 2500 3900 2500
+	2950 2500 3050 2500
 Wire Wire Line
-	3800 2600 3900 2600
+	2950 2600 3050 2600
 Wire Wire Line
-	3800 2700 3900 2700
+	2950 2700 3050 2700
 Wire Wire Line
-	3800 2800 3900 2800
+	2950 2800 3050 2800
 Wire Wire Line
-	3800 2900 3900 2900
+	2950 2900 3050 2900
 Wire Wire Line
-	3800 3000 3900 3000
+	2950 3000 3050 3000
 Wire Wire Line
-	3800 3100 3900 3100
+	2950 3100 3050 3100
 Wire Wire Line
-	3800 3200 3900 3200
+	2950 3200 3050 3200
 Wire Wire Line
-	3800 3400 3900 3400
+	2950 3400 3050 3400
 Wire Wire Line
-	3800 3300 3900 3300
-Text GLabel 3900 2500 2    50   Input ~ 0
+	2950 3300 3050 3300
+Text GLabel 3050 2500 2    50   Input ~ 0
 ENC3_1
-Text GLabel 3900 2600 2    50   Input ~ 0
+Text GLabel 3050 2600 2    50   Input ~ 0
 ENC3_2
-Text GLabel 3900 2700 2    50   Input ~ 0
+Text GLabel 3050 2700 2    50   Input ~ 0
 ENC3_3
-Text GLabel 3900 2800 2    50   Input ~ 0
+Text GLabel 3050 2800 2    50   Input ~ 0
 ENC3_4
-Text GLabel 3900 2900 2    50   Input ~ 0
+Text GLabel 3050 2900 2    50   Input ~ 0
 ENC4_1
-Text GLabel 3900 3000 2    50   Input ~ 0
+Text GLabel 3050 3000 2    50   Input ~ 0
 ENC4_2
-Text GLabel 3900 3100 2    50   Input ~ 0
+Text GLabel 3050 3100 2    50   Input ~ 0
 ENC4_3
-Text GLabel 3900 3200 2    50   Input ~ 0
+Text GLabel 3050 3200 2    50   Input ~ 0
 ENC4_4
 Wire Wire Line
-	2850 3700 2950 3700
+	2000 3700 2100 3700
 Wire Wire Line
-	2850 3800 2950 3800
+	2000 3800 2100 3800
 Wire Wire Line
-	2850 3900 2950 3900
+	2000 3900 2100 3900
 Wire Wire Line
-	2850 4000 2950 4000
+	2000 4000 2100 4000
 Wire Wire Line
-	2850 4100 2950 4100
+	2000 4100 2100 4100
 Wire Wire Line
-	2850 4200 2950 4200
+	2000 4200 2100 4200
 Wire Wire Line
-	2850 4300 2950 4300
+	2000 4300 2100 4300
 Wire Wire Line
-	2850 4400 2950 4400
+	2000 4400 2100 4400
 Wire Wire Line
-	2850 4600 2950 4600
+	2000 4600 2100 4600
 Wire Wire Line
-	2850 4500 2950 4500
-Text GLabel 2950 3700 2    50   Input ~ 0
+	2000 4500 2100 4500
+Text GLabel 2100 3700 2    50   Input ~ 0
 ENC5_1
-Text GLabel 2950 3800 2    50   Input ~ 0
+Text GLabel 2100 3800 2    50   Input ~ 0
 ENC5_2
-Text GLabel 2950 3900 2    50   Input ~ 0
+Text GLabel 2100 3900 2    50   Input ~ 0
 ENC5_3
-Text GLabel 2950 4000 2    50   Input ~ 0
+Text GLabel 2100 4000 2    50   Input ~ 0
 ENC5_4
-Text GLabel 2950 4100 2    50   Input ~ 0
+Text GLabel 2100 4100 2    50   Input ~ 0
 ENC6_1
-Text GLabel 2950 4200 2    50   Input ~ 0
+Text GLabel 2100 4200 2    50   Input ~ 0
 ENC6_2
-Text GLabel 2950 4300 2    50   Input ~ 0
+Text GLabel 2100 4300 2    50   Input ~ 0
 ENC6_3
-Text GLabel 2950 4400 2    50   Input ~ 0
+Text GLabel 2100 4400 2    50   Input ~ 0
 ENC6_4
 Wire Wire Line
-	3800 3700 3900 3700
+	2950 3700 3050 3700
 Wire Wire Line
-	3800 3800 3900 3800
+	2950 3800 3050 3800
 Wire Wire Line
-	3800 3900 3900 3900
+	2950 3900 3050 3900
 Wire Wire Line
-	3800 4000 3900 4000
+	2950 4000 3050 4000
 Wire Wire Line
-	3800 4100 3900 4100
+	2950 4100 3050 4100
 Wire Wire Line
-	3800 4200 3900 4200
+	2950 4200 3050 4200
 Wire Wire Line
-	3800 4300 3900 4300
+	2950 4300 3050 4300
 Wire Wire Line
-	3800 4400 3900 4400
+	2950 4400 3050 4400
 Wire Wire Line
-	3800 4600 3900 4600
+	2950 4600 3050 4600
 Wire Wire Line
-	3800 4500 3900 4500
-Text GLabel 3900 3700 2    50   Input ~ 0
+	2950 4500 3050 4500
+Text GLabel 3050 3700 2    50   Input ~ 0
 ENC7_1
-Text GLabel 3900 3800 2    50   Input ~ 0
+Text GLabel 3050 3800 2    50   Input ~ 0
 ENC7_2
-Text GLabel 3900 3900 2    50   Input ~ 0
+Text GLabel 3050 3900 2    50   Input ~ 0
 ENC7_3
-Text GLabel 3900 4000 2    50   Input ~ 0
+Text GLabel 3050 4000 2    50   Input ~ 0
 ENC7_4
-Text GLabel 3900 4100 2    50   Input ~ 0
+Text GLabel 3050 4100 2    50   Input ~ 0
 ENC8_1
-Text GLabel 3900 4200 2    50   Input ~ 0
+Text GLabel 3050 4200 2    50   Input ~ 0
 ENC8_2
-Text GLabel 3900 4300 2    50   Input ~ 0
+Text GLabel 3050 4300 2    50   Input ~ 0
 ENC8_3
-Text GLabel 3900 4400 2    50   Input ~ 0
+Text GLabel 3050 4400 2    50   Input ~ 0
 ENC8_4
 $Comp
-L CY8C9540A-24PVXIT:CY8C9540A-24PVXIT IC?
+L CY8C9540A-24PVXIT:CY8C9540A-24PVXIT IC1
 U 1 1 617A80A5
 P 5700 2400
-F 0 "IC?" H 7100 2665 50  0000 C CNN
+F 0 "IC1" H 7100 2665 50  0000 C CNN
 F 1 "CY8C9540A-24PVXIT" H 7100 2574 50  0000 C CNN
-F 2 "SOP64P1035X279-48N" H 8350 2500 50  0001 L CNN
+F 2 "CY8C9540A-24PVXIT:SOP64P1035X279-48N" H 8350 2500 50  0001 L CNN
 F 3 "https://www.cypress.com/file/37971/download" H 8350 2400 50  0001 L CNN
 F 4 "Interface - I/O Expanders 11Kb 40 IO EXPANDER W/EEPROM" H 8350 2300 50  0001 L CNN "Description"
 F 5 "2.794" H 8350 2200 50  0001 L CNN "Height"
@@ -240,9 +240,9 @@ Text GLabel 5700 3900 0    50   Input ~ 0
 ENC6_3
 Text GLabel 5700 4000 0    50   Input ~ 0
 ENC6_4
-Text HLabel 5700 4300 0    50   Input ~ 0
+Text HLabel 4300 4300 0    50   Input ~ 0
 EXP_SCL
-Text HLabel 5700 4400 0    50   Input ~ 0
+Text HLabel 4300 4400 0    50   Input ~ 0
 EXP_SDA
 Text HLabel 5700 3600 0    50   Input ~ 0
 EXP_GND
@@ -251,37 +251,37 @@ EXP_GND
 Text HLabel 8500 2400 2    50   Input ~ 0
 EXP_VDD
 $Comp
-L Switch:SW_MEC_5E SW?
+L Switch:SW_MEC_5E SW1
 U 1 1 617D8DFE
 P 9300 3800
-F 0 "SW?" H 9300 4185 50  0000 C CNN
+F 0 "SW1" H 9300 4185 50  0000 C CNN
 F 1 "SW_MEC_5E" H 9300 4094 50  0000 C CNN
-F 2 "" H 9300 4100 50  0001 C CNN
+F 2 "EVQ-P2F02K:EVQP2V02W" H 9300 4100 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 9300 4100 50  0001 C CNN
 	1    9300 3800
 	1    0    0    -1  
 $EndComp
 Text HLabel 8500 4600 2    50   Input ~ 0
 EXP_INT
-Text HLabel 2950 3300 2    50   Input ~ 0
+Text HLabel 2100 3400 2    50   Input ~ 0
 OR1
-Text HLabel 3900 3300 2    50   Input ~ 0
+Text HLabel 3050 3400 2    50   Input ~ 0
 OR2
-Text HLabel 2950 4500 2    50   Input ~ 0
+Text HLabel 2100 4600 2    50   Input ~ 0
 OR3
-Text HLabel 3900 4500 2    50   Input ~ 0
+Text HLabel 3050 4600 2    50   Input ~ 0
 OR4
 Wire Wire Line
 	5700 4600 5150 4600
 Wire Wire Line
 	5150 4600 5150 4650
 $Comp
-L Device:R_US R?
+L Device:R_US R3
 U 1 1 617EA2B5
 P 5150 4800
-F 0 "R?" H 5218 4846 50  0000 L CNN
+F 0 "R3" H 5218 4846 50  0000 L CNN
 F 1 "200" H 5218 4755 50  0000 L CNN
-F 2 "" V 5190 4790 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5190 4790 50  0001 C CNN
 F 3 "~" H 5150 4800 50  0001 C CNN
 	1    5150 4800
 	1    0    0    -1  
@@ -292,13 +292,13 @@ NoConn ~ 5700 4500
 NoConn ~ 8500 4400
 NoConn ~ 8500 4500
 NoConn ~ 8500 4700
-Text GLabel 2950 3400 2    50   Input ~ 0
+Text GLabel 2100 3300 2    50   Input ~ 0
 ENC_RST_1
-Text GLabel 3900 3400 2    50   Input ~ 0
+Text GLabel 3050 3300 2    50   Input ~ 0
 ENC_RST_2
-Text GLabel 2950 4600 2    50   Input ~ 0
+Text GLabel 2100 4500 2    50   Input ~ 0
 ENC_RST_3
-Text GLabel 3900 4600 2    50   Input ~ 0
+Text GLabel 3050 4500 2    50   Input ~ 0
 ENC_RST_4
 Text GLabel 8500 4200 2    50   Input ~ 0
 ENC_RST_1
@@ -321,47 +321,96 @@ Wire Wire Line
 	9500 3700 9500 3800
 Connection ~ 9500 3700
 $Comp
-L Connector_Generic:Conn_01x10 J?
+L Connector_Generic:Conn_01x10 J12
 U 1 1 61681B58
-P 2650 3000
-F 0 "J?" H 2568 2275 50  0000 C CNN
-F 1 "Conn_01x10" H 2568 2366 50  0000 C CNN
-F 2 "Connector_JST:JST_GH_BM10B-GHS-TBT_1x10-1MP_P1.25mm_Vertical" H 2650 3000 50  0001 C CNN
-F 3 "~" H 2650 3000 50  0001 C CNN
-	1    2650 3000
+P 1800 3000
+F 0 "J12" H 1718 2275 50  0000 C CNN
+F 1 "Conn_01x10" H 1718 2366 50  0000 C CNN
+F 2 "Connector_JST:JST_GH_BM10B-GHS-TBT_1x10-1MP_P1.25mm_Vertical" H 1800 3000 50  0001 C CNN
+F 3 "~" H 1800 3000 50  0001 C CNN
+	1    1800 3000
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x10 J?
+L Connector_Generic:Conn_01x10 J14
 U 1 1 6168626C
-P 3600 3000
-F 0 "J?" H 3518 2275 50  0000 C CNN
-F 1 "Conn_01x10" H 3518 2366 50  0000 C CNN
-F 2 "Connector_JST:JST_GH_BM10B-GHS-TBT_1x10-1MP_P1.25mm_Vertical" H 3600 3000 50  0001 C CNN
-F 3 "~" H 3600 3000 50  0001 C CNN
-	1    3600 3000
+P 2750 3000
+F 0 "J14" H 2668 2275 50  0000 C CNN
+F 1 "Conn_01x10" H 2668 2366 50  0000 C CNN
+F 2 "Connector_JST:JST_GH_BM10B-GHS-TBT_1x10-1MP_P1.25mm_Vertical" H 2750 3000 50  0001 C CNN
+F 3 "~" H 2750 3000 50  0001 C CNN
+	1    2750 3000
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x10 J?
+L Connector_Generic:Conn_01x10 J13
 U 1 1 61686F2D
-P 2650 4200
-F 0 "J?" H 2568 3475 50  0000 C CNN
-F 1 "Conn_01x10" H 2568 3566 50  0000 C CNN
-F 2 "Connector_JST:JST_GH_BM10B-GHS-TBT_1x10-1MP_P1.25mm_Vertical" H 2650 4200 50  0001 C CNN
-F 3 "~" H 2650 4200 50  0001 C CNN
-	1    2650 4200
+P 1800 4200
+F 0 "J13" H 1718 3475 50  0000 C CNN
+F 1 "Conn_01x10" H 1718 3566 50  0000 C CNN
+F 2 "Connector_JST:JST_GH_BM10B-GHS-TBT_1x10-1MP_P1.25mm_Vertical" H 1800 4200 50  0001 C CNN
+F 3 "~" H 1800 4200 50  0001 C CNN
+	1    1800 4200
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x10 J?
+L Connector_Generic:Conn_01x10 J15
 U 1 1 61688106
-P 3600 4200
-F 0 "J?" H 3518 3475 50  0000 C CNN
-F 1 "Conn_01x10" H 3518 3566 50  0000 C CNN
-F 2 "Connector_JST:JST_GH_BM10B-GHS-TBT_1x10-1MP_P1.25mm_Vertical" H 3600 4200 50  0001 C CNN
-F 3 "~" H 3600 4200 50  0001 C CNN
-	1    3600 4200
+P 2750 4200
+F 0 "J15" H 2668 3475 50  0000 C CNN
+F 1 "Conn_01x10" H 2668 3566 50  0000 C CNN
+F 2 "Connector_JST:JST_GH_BM10B-GHS-TBT_1x10-1MP_P1.25mm_Vertical" H 2750 4200 50  0001 C CNN
+F 3 "~" H 2750 4200 50  0001 C CNN
+	1    2750 4200
 	-1   0    0    1   
 $EndComp
+$Comp
+L Device:R_Small_US R1
+U 1 1 617B7086
+P 4650 4000
+F 0 "R1" H 4718 4046 50  0000 L CNN
+F 1 "2.2k" H 4718 3955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4650 4000 50  0001 C CNN
+F 3 "~" H 4650 4000 50  0001 C CNN
+	1    4650 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 4400 4650 4400
+Wire Wire Line
+	4950 4400 4950 4100
+Connection ~ 4950 4400
+$Comp
+L Device:R_Small_US R2
+U 1 1 617C398A
+P 4950 4000
+F 0 "R2" H 5018 4046 50  0000 L CNN
+F 1 "2.2k" H 5018 3955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4950 4000 50  0001 C CNN
+F 3 "~" H 4950 4000 50  0001 C CNN
+	1    4950 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 4400 5700 4400
+Wire Wire Line
+	4950 3900 4950 3800
+Wire Wire Line
+	4650 3900 4650 3800
+Wire Wire Line
+	4650 3800 4800 3800
+Wire Wire Line
+	4650 4100 4650 4400
+Connection ~ 4650 4400
+Wire Wire Line
+	4650 4400 4950 4400
+Wire Wire Line
+	4300 4300 5700 4300
+Wire Wire Line
+	4800 3800 4800 3700
+Connection ~ 4800 3800
+Wire Wire Line
+	4800 3800 4950 3800
+Text HLabel 4800 3700 0    50   Input ~ 0
+EXP_VDD
 $EndSCHEMATC
