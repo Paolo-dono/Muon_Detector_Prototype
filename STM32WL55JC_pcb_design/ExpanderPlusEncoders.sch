@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -33,19 +33,6 @@ Wire Wire Line
 	2850 3400 2950 3400
 Wire Wire Line
 	2850 3300 2950 3300
-$Comp
-L Connector:Conn_01x10_Male J?
-U 1 1 6179BFE6
-P 2650 2900
-AR Path="/6179BFE6" Ref="J?"  Part="1" 
-AR Path="/61789BD1/6179BFE6" Ref="J?"  Part="1" 
-F 0 "J?" H 2758 3481 50  0000 C CNN
-F 1 "Conn_01x10_Male" H 2758 3390 50  0000 C CNN
-F 2 "Connector_JST:JST_GH_BM10B-GHS-TBT_1x10-1MP_P1.25mm_Vertical" H 2650 2900 50  0001 C CNN
-F 3 "~" H 2650 2900 50  0001 C CNN
-	1    2650 2900
-	1    0    0    -1  
-$EndComp
 Text GLabel 2950 2500 2    50   Input ~ 0
 ENC1_1
 Text GLabel 2950 2600 2    50   Input ~ 0
@@ -82,19 +69,6 @@ Wire Wire Line
 	3800 3400 3900 3400
 Wire Wire Line
 	3800 3300 3900 3300
-$Comp
-L Connector:Conn_01x10_Male J?
-U 1 1 6179C000
-P 3600 2900
-AR Path="/6179C000" Ref="J?"  Part="1" 
-AR Path="/61789BD1/6179C000" Ref="J?"  Part="1" 
-F 0 "J?" H 3708 3481 50  0000 C CNN
-F 1 "Conn_01x10_Male" H 3708 3390 50  0000 C CNN
-F 2 "Connector_JST:JST_GH_BM10B-GHS-TBT_1x10-1MP_P1.25mm_Vertical" H 3600 2900 50  0001 C CNN
-F 3 "~" H 3600 2900 50  0001 C CNN
-	1    3600 2900
-	1    0    0    -1  
-$EndComp
 Text GLabel 3900 2500 2    50   Input ~ 0
 ENC3_1
 Text GLabel 3900 2600 2    50   Input ~ 0
@@ -131,19 +105,6 @@ Wire Wire Line
 	2850 4600 2950 4600
 Wire Wire Line
 	2850 4500 2950 4500
-$Comp
-L Connector:Conn_01x10_Male J?
-U 1 1 6179C019
-P 2650 4100
-AR Path="/6179C019" Ref="J?"  Part="1" 
-AR Path="/61789BD1/6179C019" Ref="J?"  Part="1" 
-F 0 "J?" H 2758 4681 50  0000 C CNN
-F 1 "Conn_01x10_Male" H 2758 4590 50  0000 C CNN
-F 2 "Connector_JST:JST_GH_BM10B-GHS-TBT_1x10-1MP_P1.25mm_Vertical" H 2650 4100 50  0001 C CNN
-F 3 "~" H 2650 4100 50  0001 C CNN
-	1    2650 4100
-	1    0    0    -1  
-$EndComp
 Text GLabel 2950 3700 2    50   Input ~ 0
 ENC5_1
 Text GLabel 2950 3800 2    50   Input ~ 0
@@ -180,19 +141,6 @@ Wire Wire Line
 	3800 4600 3900 4600
 Wire Wire Line
 	3800 4500 3900 4500
-$Comp
-L Connector:Conn_01x10_Male J?
-U 1 1 6179C032
-P 3600 4100
-AR Path="/6179C032" Ref="J?"  Part="1" 
-AR Path="/61789BD1/6179C032" Ref="J?"  Part="1" 
-F 0 "J?" H 3708 4681 50  0000 C CNN
-F 1 "Conn_01x10_Male" H 3708 4590 50  0000 C CNN
-F 2 "Connector_JST:JST_GH_BM10B-GHS-TBT_1x10-1MP_P1.25mm_Vertical" H 3600 4100 50  0001 C CNN
-F 3 "~" H 3600 4100 50  0001 C CNN
-	1    3600 4100
-	1    0    0    -1  
-$EndComp
 Text GLabel 3900 3700 2    50   Input ~ 0
 ENC7_1
 Text GLabel 3900 3800 2    50   Input ~ 0
@@ -302,53 +250,19 @@ Text HLabel 5700 4700 0    50   Input ~ 0
 EXP_GND
 Text HLabel 8500 2400 2    50   Input ~ 0
 EXP_VDD
-Wire Wire Line
-	8500 3700 8900 3700
 $Comp
 L Switch:SW_MEC_5E SW?
 U 1 1 617D8DFE
-P 9100 3800
-F 0 "SW?" H 9100 4185 50  0000 C CNN
-F 1 "SW_MEC_5E" H 9100 4094 50  0000 C CNN
-F 2 "" H 9100 4100 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 9100 4100 50  0001 C CNN
-	1    9100 3800
+P 9300 3800
+F 0 "SW?" H 9300 4185 50  0000 C CNN
+F 1 "SW_MEC_5E" H 9300 4094 50  0000 C CNN
+F 2 "" H 9300 4100 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 9300 4100 50  0001 C CNN
+	1    9300 3800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8900 3700 8900 3800
-Connection ~ 8900 3700
-Wire Wire Line
-	9300 3800 9300 3700
-Text HLabel 9350 3800 2    50   Input ~ 0
-EXP_GND
-Text HLabel 9250 4600 2    50   Input ~ 0
+Text HLabel 8500 4600 2    50   Input ~ 0
 EXP_INT
-$Comp
-L Device:R_US R?
-U 1 1 617DE762
-P 9050 4450
-F 0 "R?" H 9118 4496 50  0000 L CNN
-F 1 "4k7" H 9118 4405 50  0000 L CNN
-F 2 "" V 9090 4440 50  0001 C CNN
-F 3 "~" H 9050 4450 50  0001 C CNN
-	1    9050 4450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9050 4300 9050 4200
-Wire Wire Line
-	9050 4600 9250 4600
-Wire Wire Line
-	9050 4600 8500 4600
-Connection ~ 9050 4600
-Wire Wire Line
-	9050 4200 9100 4200
-Wire Wire Line
-	9300 3800 9350 3800
-Connection ~ 9300 3800
-Text HLabel 9100 4200 2    50   Input ~ 0
-EXP_VDD
 Text HLabel 2950 3300 2    50   Input ~ 0
 OR1
 Text HLabel 3900 3300 2    50   Input ~ 0
@@ -394,4 +308,60 @@ Text GLabel 5700 4100 0    50   Input ~ 0
 ENC_RST_3
 Text GLabel 5700 4200 0    50   Input ~ 0
 ENC_RST_4
+Text HLabel 9750 3700 2    50   Input ~ 0
+EXP_VDD
+Wire Wire Line
+	9500 3700 9750 3700
+Wire Wire Line
+	8500 3700 9100 3700
+Wire Wire Line
+	9100 3700 9100 3800
+Connection ~ 9100 3700
+Wire Wire Line
+	9500 3700 9500 3800
+Connection ~ 9500 3700
+$Comp
+L Connector_Generic:Conn_01x10 J?
+U 1 1 61681B58
+P 2650 3000
+F 0 "J?" H 2568 2275 50  0000 C CNN
+F 1 "Conn_01x10" H 2568 2366 50  0000 C CNN
+F 2 "Connector_JST:JST_GH_BM10B-GHS-TBT_1x10-1MP_P1.25mm_Vertical" H 2650 3000 50  0001 C CNN
+F 3 "~" H 2650 3000 50  0001 C CNN
+	1    2650 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J?
+U 1 1 6168626C
+P 3600 3000
+F 0 "J?" H 3518 2275 50  0000 C CNN
+F 1 "Conn_01x10" H 3518 2366 50  0000 C CNN
+F 2 "Connector_JST:JST_GH_BM10B-GHS-TBT_1x10-1MP_P1.25mm_Vertical" H 3600 3000 50  0001 C CNN
+F 3 "~" H 3600 3000 50  0001 C CNN
+	1    3600 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J?
+U 1 1 61686F2D
+P 2650 4200
+F 0 "J?" H 2568 3475 50  0000 C CNN
+F 1 "Conn_01x10" H 2568 3566 50  0000 C CNN
+F 2 "Connector_JST:JST_GH_BM10B-GHS-TBT_1x10-1MP_P1.25mm_Vertical" H 2650 4200 50  0001 C CNN
+F 3 "~" H 2650 4200 50  0001 C CNN
+	1    2650 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J?
+U 1 1 61688106
+P 3600 4200
+F 0 "J?" H 3518 3475 50  0000 C CNN
+F 1 "Conn_01x10" H 3518 3566 50  0000 C CNN
+F 2 "Connector_JST:JST_GH_BM10B-GHS-TBT_1x10-1MP_P1.25mm_Vertical" H 3600 4200 50  0001 C CNN
+F 3 "~" H 3600 4200 50  0001 C CNN
+	1    3600 4200
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
