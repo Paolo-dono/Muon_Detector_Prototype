@@ -288,10 +288,6 @@ F 3 "~" H 5150 4800 50  0001 C CNN
 $EndComp
 Text HLabel 5150 4950 0    50   Input ~ 0
 EXP_GND
-NoConn ~ 5700 4500
-NoConn ~ 8500 4400
-NoConn ~ 8500 4500
-NoConn ~ 8500 4700
 Text GLabel 2100 3300 2    50   Input ~ 0
 ENC_RST_1
 Text GLabel 3050 3300 2    50   Input ~ 0
@@ -308,7 +304,7 @@ Text GLabel 5700 4100 0    50   Input ~ 0
 ENC_RST_3
 Text GLabel 5700 4200 0    50   Input ~ 0
 ENC_RST_4
-Text HLabel 9750 3700 2    50   Input ~ 0
+Text HLabel 9750 3350 1    50   Input ~ 0
 EXP_VDD
 Wire Wire Line
 	9500 3700 9750 3700
@@ -413,4 +409,27 @@ Wire Wire Line
 	4800 3800 4950 3800
 Text HLabel 4800 3700 0    50   Input ~ 0
 EXP_VDD
+$Comp
+L Device:R_Small_US R8
+U 1 1 615EB589
+P 9750 3500
+F 0 "R8" H 9818 3546 50  0000 L CNN
+F 1 "1k" H 9818 3455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 9750 3500 50  0001 C CNN
+F 3 "~" H 9750 3500 50  0001 C CNN
+	1    9750 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 3600 9750 3700
+Wire Wire Line
+	9750 3400 9750 3350
+Text HLabel 5700 4500 0    50   Input ~ 0
+EXP_3
+Text HLabel 8500 4400 2    50   Input ~ 0
+EXP_0
+Text HLabel 8500 4500 2    50   Input ~ 0
+EXP_1
+Text HLabel 8500 4700 2    50   Input ~ 0
+EXP_2
 $EndSCHEMATC

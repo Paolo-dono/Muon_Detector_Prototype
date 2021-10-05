@@ -21,7 +21,7 @@ AR Path="/613DAF5F" Ref="J?"  Part="1"
 AR Path="/613C9E7C/613DAF5F" Ref="J16"  Part="1" 
 F 0 "J16" H 9300 3825 50  0000 L CNN
 F 1 "Conn_Coaxial" H 9300 3734 50  0000 L CNN
-F 2 "" H 9200 3850 50  0001 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" H 9200 3850 50  0001 C CNN
 F 3 " ~" H 9200 3850 50  0001 C CNN
 	1    9200 3850
 	1    0    0    -1  

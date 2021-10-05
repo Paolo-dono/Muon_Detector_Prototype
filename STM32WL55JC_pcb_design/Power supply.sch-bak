@@ -241,7 +241,7 @@ U 1 1 612F9E39
 P 4250 2500
 F 0 "J20" H 4300 2717 50  0000 C CNN
 F 1 "Conn_02x02_Odd_Even" H 4300 2626 50  0000 C CNN
-F 2 "" H 4250 2500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical_SMD" H 4250 2500 50  0001 C CNN
 F 3 "~" H 4250 2500 50  0001 C CNN
 	1    4250 2500
 	1    0    0    -1  
@@ -456,4 +456,6 @@ Wire Wire Line
 Connection ~ 5650 2500
 Wire Wire Line
 	6050 2500 6200 2500
+NoConn ~ 3750 5100
+NoConn ~ 3750 5000
 $EndSCHEMATC
