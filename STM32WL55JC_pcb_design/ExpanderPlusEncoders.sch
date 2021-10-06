@@ -176,21 +176,21 @@ F 11 "https://www.arrow.com/en/products/cy8c9540a-24pvxit/cypress-semiconductor"
 	1    5700 2400
 	1    0    0    -1  
 $EndComp
-Text GLabel 8500 2500 2    50   Input ~ 0
+Text GLabel 5700 3200 0    50   Input ~ 0
 ENC3_1
-Text GLabel 8500 2600 2    50   Input ~ 0
+Text GLabel 5700 3300 0    50   Input ~ 0
 ENC3_2
-Text GLabel 8500 2700 2    50   Input ~ 0
+Text GLabel 5700 3400 0    50   Input ~ 0
 ENC3_3
-Text GLabel 8500 2800 2    50   Input ~ 0
+Text GLabel 5700 3500 0    50   Input ~ 0
 ENC3_4
-Text GLabel 8500 2900 2    50   Input ~ 0
+Text GLabel 5700 3700 0    50   Input ~ 0
 ENC4_1
-Text GLabel 8500 3000 2    50   Input ~ 0
+Text GLabel 5700 3800 0    50   Input ~ 0
 ENC4_2
-Text GLabel 8500 3100 2    50   Input ~ 0
+Text GLabel 5700 3900 0    50   Input ~ 0
 ENC4_3
-Text GLabel 8500 3200 2    50   Input ~ 0
+Text GLabel 5700 4000 0    50   Input ~ 0
 ENC4_4
 Text GLabel 8500 3300 2    50   Input ~ 0
 ENC7_1
@@ -224,21 +224,21 @@ Text GLabel 5700 3000 0    50   Input ~ 0
 ENC2_3
 Text GLabel 5700 3100 0    50   Input ~ 0
 ENC2_4
-Text GLabel 5700 3200 0    50   Input ~ 0
+Text GLabel 8500 2500 2    50   Input ~ 0
 ENC5_1
-Text GLabel 5700 3300 0    50   Input ~ 0
+Text GLabel 8500 2600 2    50   Input ~ 0
 ENC5_2
-Text GLabel 5700 3400 0    50   Input ~ 0
+Text GLabel 8500 2700 2    50   Input ~ 0
 ENC5_3
-Text GLabel 5700 3500 0    50   Input ~ 0
+Text GLabel 8500 2800 2    50   Input ~ 0
 ENC5_4
-Text GLabel 5700 3700 0    50   Input ~ 0
+Text GLabel 8500 2900 2    50   Input ~ 0
 ENC6_1
-Text GLabel 5700 3800 0    50   Input ~ 0
+Text GLabel 8500 3000 2    50   Input ~ 0
 ENC6_2
-Text GLabel 5700 3900 0    50   Input ~ 0
+Text GLabel 8500 3100 2    50   Input ~ 0
 ENC6_3
-Text GLabel 5700 4000 0    50   Input ~ 0
+Text GLabel 8500 3200 2    50   Input ~ 0
 ENC6_4
 Text HLabel 4300 4300 0    50   Input ~ 0
 EXP_SCL
@@ -296,26 +296,20 @@ Text GLabel 2100 4500 2    50   Input ~ 0
 ENC_RST_3
 Text GLabel 3050 4500 2    50   Input ~ 0
 ENC_RST_4
-Text GLabel 8500 4200 2    50   Input ~ 0
-ENC_RST_1
-Text GLabel 8500 4300 2    50   Input ~ 0
-ENC_RST_2
-Text GLabel 5700 4100 0    50   Input ~ 0
-ENC_RST_3
 Text GLabel 5700 4200 0    50   Input ~ 0
+ENC_RST_1
+Text GLabel 5700 4100 0    50   Input ~ 0
+ENC_RST_2
+Text GLabel 8500 4300 2    50   Input ~ 0
+ENC_RST_3
+Text GLabel 8500 4200 2    50   Input ~ 0
 ENC_RST_4
 Text HLabel 9750 3350 1    50   Input ~ 0
 EXP_VDD
 Wire Wire Line
-	9500 3700 9750 3700
+	9500 3700 9550 3700
 Wire Wire Line
-	8500 3700 9100 3700
-Wire Wire Line
-	9100 3700 9100 3800
-Connection ~ 9100 3700
-Wire Wire Line
-	9500 3700 9500 3800
-Connection ~ 9500 3700
+	8500 3700 9000 3700
 $Comp
 L Connector_Generic:Conn_01x10 J12
 U 1 1 61681B58
@@ -373,9 +367,6 @@ F 3 "~" H 4650 4000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4300 4400 4650 4400
-Wire Wire Line
-	4950 4400 4950 4100
-Connection ~ 4950 4400
 $Comp
 L Device:R_Small_US R2
 U 1 1 617C398A
@@ -388,8 +379,6 @@ F 3 "~" H 4950 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4950 4400 5700 4400
-Wire Wire Line
 	4950 3900 4950 3800
 Wire Wire Line
 	4650 3900 4650 3800
@@ -399,9 +388,7 @@ Wire Wire Line
 	4650 4100 4650 4400
 Connection ~ 4650 4400
 Wire Wire Line
-	4650 4400 4950 4400
-Wire Wire Line
-	4300 4300 5700 4300
+	4300 4300 4950 4300
 Wire Wire Line
 	4800 3800 4800 3700
 Connection ~ 4800 3800
@@ -432,4 +419,29 @@ Text HLabel 8500 4500 2    50   Input ~ 0
 EXP_1
 Text HLabel 8500 4700 2    50   Input ~ 0
 EXP_2
+Wire Wire Line
+	4650 4400 5700 4400
+Wire Wire Line
+	4950 4100 4950 4300
+Connection ~ 4950 4300
+Wire Wire Line
+	4950 4300 5700 4300
+Wire Wire Line
+	9000 3700 9000 3900
+Wire Wire Line
+	9000 3900 9500 3900
+Wire Wire Line
+	9500 3900 9500 3800
+Connection ~ 9000 3700
+Wire Wire Line
+	9000 3700 9100 3700
+Wire Wire Line
+	9100 3800 9100 4000
+Wire Wire Line
+	9100 4000 9550 4000
+Wire Wire Line
+	9550 4000 9550 3700
+Connection ~ 9550 3700
+Wire Wire Line
+	9550 3700 9750 3700
 $EndSCHEMATC

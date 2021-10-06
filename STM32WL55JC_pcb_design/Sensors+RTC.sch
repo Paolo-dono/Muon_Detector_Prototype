@@ -367,7 +367,7 @@ F 3 "https://datasheets.maximintegrated.com/en/ds/DS1307.pdf" H 2400 3350 50  00
 	1    2400 3550
 	1    0    0    -1  
 $EndComp
-Text HLabel 1350 2600 1    50   Input ~ 0
+Text HLabel 1350 2650 1    50   Input ~ 0
 5V
 $Comp
 L power:GNDREF #PWR?
