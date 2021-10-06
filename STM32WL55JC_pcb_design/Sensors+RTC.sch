@@ -654,9 +654,9 @@ Text GLabel 9450 1350 0    50   Input ~ 0
 GPS_TIMER
 Text GLabel 9450 1450 0    50   Input ~ 0
 GPS_1PPS
-Text GLabel 9450 1550 0    50   Input ~ 0
-GPS_EX_ANT
 Text GLabel 9450 1650 0    50   Input ~ 0
+GPS_EX_ANT
+Text GLabel 9450 1550 0    50   Input ~ 0
 GPS_RESET
 Text GLabel 7200 2900 2    50   Input ~ 0
 ACC_ADC3
@@ -682,11 +682,11 @@ Text GLabel 9450 1750 0    50   Input ~ 0
 ACC_INT1
 Text GLabel 9450 1850 0    50   Input ~ 0
 ACC_INT2
-Text GLabel 9450 1950 0    50   Input ~ 0
+Text GLabel 9450 2150 0    50   Input ~ 0
 ACC_ADC1
 Text GLabel 9450 2050 0    50   Input ~ 0
 ACC_ADC2
-Text GLabel 9450 2150 0    50   Input ~ 0
+Text GLabel 9450 1950 0    50   Input ~ 0
 ACC_ADC3
 Text GLabel 2900 3550 2    50   Input ~ 0
 RTC_SQW

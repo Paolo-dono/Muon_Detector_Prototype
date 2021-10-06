@@ -307,15 +307,9 @@ ENC_RST_4
 Text HLabel 9750 3350 1    50   Input ~ 0
 EXP_VDD
 Wire Wire Line
-	9500 3700 9750 3700
+	9500 3700 9550 3700
 Wire Wire Line
-	8500 3700 9100 3700
-Wire Wire Line
-	9100 3700 9100 3800
-Connection ~ 9100 3700
-Wire Wire Line
-	9500 3700 9500 3800
-Connection ~ 9500 3700
+	8500 3700 9000 3700
 $Comp
 L Connector_Generic:Conn_01x10 J12
 U 1 1 61681B58
@@ -432,4 +426,22 @@ Wire Wire Line
 Connection ~ 4950 4300
 Wire Wire Line
 	4950 4300 5700 4300
+Wire Wire Line
+	9000 3700 9000 3900
+Wire Wire Line
+	9000 3900 9500 3900
+Wire Wire Line
+	9500 3900 9500 3800
+Connection ~ 9000 3700
+Wire Wire Line
+	9000 3700 9100 3700
+Wire Wire Line
+	9100 3800 9100 4000
+Wire Wire Line
+	9100 4000 9550 4000
+Wire Wire Line
+	9550 4000 9550 3700
+Connection ~ 9550 3700
+Wire Wire Line
+	9550 3700 9750 3700
 $EndSCHEMATC

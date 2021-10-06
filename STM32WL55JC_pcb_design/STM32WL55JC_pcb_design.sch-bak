@@ -1454,13 +1454,7 @@ F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11450 5750 11700 5750
-Wire Wire Line
-	11050 5750 11050 5850
-Connection ~ 11050 5750
-Wire Wire Line
-	11450 5750 11450 5850
-Connection ~ 11450 5750
+	11450 5750 11500 5750
 Wire Wire Line
 	10950 5750 10950 5350
 Wire Wire Line
@@ -1608,4 +1602,19 @@ Wire Wire Line
 	7650 1000 8450 1000
 Wire Wire Line
 	6050 1000 6850 1000
+Wire Wire Line
+	11050 5850 11050 5950
+Wire Wire Line
+	11050 5950 11500 5950
+Wire Wire Line
+	11500 5950 11500 5750
+Connection ~ 11500 5750
+Wire Wire Line
+	11500 5750 11700 5750
+Wire Wire Line
+	10950 5750 10950 5900
+Wire Wire Line
+	10950 5900 11450 5900
+Wire Wire Line
+	11450 5900 11450 5850
 $EndSCHEMATC

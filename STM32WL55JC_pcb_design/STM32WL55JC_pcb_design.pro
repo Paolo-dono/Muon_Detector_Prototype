@@ -1,4 +1,4 @@
-update=2021/10/06 14:55:33
+update=2021/10/06 19:07:01
 version=1
 last_client=kicad
 [general]
@@ -28,8 +28,8 @@ PageLayoutDescrFile=
 LastNetListRead=STM32WL55JC_pcb_design.net
 CopperLayerCount=4
 BoardThickness=1.6
-AllowMicroVias=0
-AllowBlindVias=0
+AllowMicroVias=1
+AllowBlindVias=1
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
 MinTrackWidth=0.2

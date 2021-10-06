@@ -1552,12 +1552,8 @@ Text GLabel 1800 5050 2    50   Input ~ 0
 EXP_1
 Text GLabel 1800 5150 2    50   Input ~ 0
 EXP_0
-Text GLabel 4500 8100 0    50   Input ~ 0
-EXP_0
 Text GLabel 4500 7800 0    50   Input ~ 0
 EXP_3
-Text GLabel 4500 7900 0    50   Input ~ 0
-EXP_2
 Text GLabel 4500 8000 0    50   Input ~ 0
 EXP_1
 $Comp
@@ -1617,4 +1613,8 @@ Wire Wire Line
 	10950 5900 11450 5900
 Wire Wire Line
 	11450 5900 11450 5850
+Text GLabel 4500 8100 0    50   Input ~ 0
+EXP_0
+Text GLabel 4500 7900 0    50   Input ~ 0
+EXP_2
 $EndSCHEMATC
