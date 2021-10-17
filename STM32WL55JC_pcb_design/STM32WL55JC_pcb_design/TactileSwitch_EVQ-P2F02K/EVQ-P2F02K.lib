@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model EVQ-P2F02K
+#/1112772/584822/2.49/5/4/Switch
+DEF EVQ-P2F02K S 0 30 Y Y 1 F N
+F0 "S" 1050 300 50 H V L CNN
+F1 "EVQ-P2F02K" 1050 200 50 H V L CNN
+F2 "EVQP2V02W" 1050 100 50 H I L CNN
+F3 "https://www.mouser.com/datasheet/2/315/sw_lt_eng_4735s-1288983.pdf" 1050 0 50 H I L CNN
+F4 "Tactile Switches Light Touch Switch 4.7x3.5mm SMD midd" 1050 -100 50 H I L CNN "Description"
+F5 "2.5" 1050 -200 50 H I L CNN "Height"
+F6 "Panasonic" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "EVQ-P2F02K" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "667-EVQ-P2F02K" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Panasonic/EVQ-P2F02K?qs=WwqriLBepZsV0QucKJ89rg%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X NO_1 1 0 0 200 R 50 50 0 0 P
+X COM_1 2 0 -100 200 R 50 50 0 0 P
+X NO_2 3 0 -200 200 R 50 50 0 0 P
+X COM_2 4 1200 0 200 L 50 50 0 0 P
+X GND 5 1200 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

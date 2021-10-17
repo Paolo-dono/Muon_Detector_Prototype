@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32F051R8T6
+D STMICROELECTRONICS - STM32F051R8T6 - ARM MCU, Access Line, STM32 Family STM32F0 Series Microcontrollers, ARM Cortex-M0, 32bit, 48 MHz
+K
+F http://www.st.com/web/en/resource/technical/document/datasheet/DM00039193.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model HTS221TR
+#/252956/584822/2.49/6/4/Integrated Circuit
+DEF HTS221TR IC 0 30 Y Y 1 F N
+F0 "IC" 1450 900 50 H V L CNN
+F1 "HTS221TR" 1450 800 50 H V L CNN
+F2 "HLGA-6L" 1450 700 50 H I L CNN
+F3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/4d/9a/9c/ad/25/07/42/34/DM00116291.pdf/files/DM00116291.pdf/jcr:content/translations/en.DM00116291.pdf" 1450 600 50 H I L CNN
+F4 "Humidity and Temperature Sensor HLGA6 STMicroelectronics HTS221TR Temperature & Humidity Sensor, -40  +120 C, 6-Pin HLGA" 1450 500 50 H I L CNN "Description"
+F5 "" 1450 400 50 H I L CNN "Height"
+F6 "STMicroelectronics" 1450 300 50 H I L CNN "Manufacturer_Name"
+F7 "HTS221TR" 1450 200 50 H I L CNN "Manufacturer_Part_Number"
+F8 "511-HTS221TR" 1450 100 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/HTS221TR?qs=9MuLHSklicqAHntRLffjZQ%3D%3D" 1450 0 50 H I L CNN "Mouser Price/Stock"
+F10 "HTS221TR" 1450 -100 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/hts221tr/stmicroelectronics" 1450 -200 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X VDD 1 0 0 200 R 50 50 0 0 P
+X SCL/SPC 2 0 -100 200 R 50 50 0 0 P
+X DRDY 3 800 -700 200 U 50 50 0 0 P
+X SDA/SDI/SDO 4 1600 -100 200 L 50 50 0 0 P
+X GND 5 1600 0 200 L 50 50 0 0 P
+X SPI_ENABLE 6 800 900 200 D 50 50 0 0 P
+P 5 0 1 6 200 700 1400 700 1400 -500 200 -500 200 700 N
+ENDDRAW
+ENDDEF
+#
+#End Library
