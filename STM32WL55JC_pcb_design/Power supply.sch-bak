@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:C C61
-U 1 1 612D3281
-P 6200 2800
-F 0 "C61" H 6315 2846 50  0000 L CNN
-F 1 "10uF" H 6315 2755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 6238 2650 50  0001 C CNN
-F 3 "~" H 6200 2800 50  0001 C CNN
-	1    6200 2800
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C63
 U 1 1 612D3287
 P 7950 2800
@@ -458,4 +447,15 @@ Wire Wire Line
 	6050 2500 6200 2500
 NoConn ~ 3750 5100
 NoConn ~ 3750 5000
+$Comp
+L Device:C C61
+U 1 1 612D3281
+P 6200 2800
+F 0 "C61" H 6315 2846 50  0000 L CNN
+F 1 "10uF" H 6315 2755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6238 2650 50  0001 C CNN
+F 3 "~" H 6200 2800 50  0001 C CNN
+	1    6200 2800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

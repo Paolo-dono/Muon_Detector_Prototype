@@ -1,4 +1,4 @@
-19240542928344344
+19245446236636216
 ADC122S021CIMM
 SOP65P490X110-8N
 
@@ -58750,6 +58750,13 @@ Mounting 4.5mm 9774100982
 0
 8
 1
+NX2016SA32MEXS00ACS06465
+NX2016SA32MEXS00ACS06465
+NX2016SA-32M-EXS00A-CS06465-2
+Crystal or Oscillator
+0
+4
+4
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -76397,6 +76404,20 @@ Crystal or Oscillator
 0
 2
 2
+STM32F051R8T6
+QFP50P1200X1200X160-64N
+64-pin, 10 x 10 mm  quad flat
+Integrated Circuit
+0
+64
+64
+SX1276IMLTRT
+QFN65P600X600X100-29N
+QFN
+Integrated Circuit
+0
+29
+29
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
