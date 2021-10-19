@@ -444,7 +444,7 @@ U 1 1 61713A38
 P 2800 5100
 F 0 "J20" H 3250 5365 50  0000 C CNN
 F 1 "USB-A-S-F-B-TH" H 3250 5274 50  0000 C CNN
-F 2 "USBASFBTH" H 3550 5200 50  0001 L CNN
+F 2 "USBASFBTH:USBASFBTH" H 3550 5200 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/5/USB-A-S-F-B-TH.pdf" H 3550 5100 50  0001 L CNN
 F 4 "Samtec USB-A Series, Right Angle Through Hole, Version 2.0 Type A USB Connector, Receptacle" H 3550 5000 50  0001 L CNN "Description"
 F 5 "7.21" H 3550 4900 50  0001 L CNN "Height"

@@ -1,4 +1,4 @@
-update=2021/10/07 10:23:40
+update=2021/10/19 17:03:56
 version=1
 last_client=kicad
 [general]
@@ -26,7 +26,7 @@ ERC_TestSimilarLabels=1
 version=1
 PageLayoutDescrFile=
 LastNetListRead=STM32WL55JC_pcb_design.net
-CopperLayerCount=4
+CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=1
 AllowBlindVias=1
@@ -51,6 +51,8 @@ ViaDiameter4=0.6
 ViaDrill4=0.3
 ViaDiameter5=1.016
 ViaDrill5=0.508
+ViaDiameter6=2.032
+ViaDrill6=1.016
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -85,11 +87,11 @@ Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
 Type=0
-Enabled=1
+Enabled=0
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
 Type=0
-Enabled=1
+Enabled=0
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0

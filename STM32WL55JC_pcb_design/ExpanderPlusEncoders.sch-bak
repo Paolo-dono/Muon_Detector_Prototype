@@ -248,7 +248,7 @@ Text HLabel 5700 3600 0    50   Input ~ 0
 EXP_GND
 Text HLabel 5700 4700 0    50   Input ~ 0
 EXP_GND
-Text HLabel 8500 2400 2    50   Input ~ 0
+Text HLabel 9100 2400 2    50   Input ~ 0
 EXP_VDD
 $Comp
 L Switch:SW_MEC_5E SW2
@@ -444,4 +444,24 @@ Wire Wire Line
 Connection ~ 9550 3700
 Wire Wire Line
 	9550 3700 9750 3700
+$Comp
+L Device:C_Small C49
+U 1 1 6192549B
+P 9000 2500
+F 0 "C49" H 9092 2546 50  0000 L CNN
+F 1 "100nF" H 9092 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9000 2500 50  0001 C CNN
+F 3 "~" H 9000 2500 50  0001 C CNN
+	1    9000 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 2400 9000 2400
+Wire Wire Line
+	9000 2400 9100 2400
+Connection ~ 9000 2400
+Text HLabel 9100 2600 2    50   Input ~ 0
+EXP_GND
+Wire Wire Line
+	9000 2600 9100 2600
 $EndSCHEMATC
