@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -25,17 +25,6 @@ F 2 "Connector_Coaxial:SMA_Amphenol_901-144_Vertical" H 10300 1850 50  0001 C CN
 F 3 " ~" H 10300 1850 50  0001 C CNN
 	1    10300 1850
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:L_Small L5
-U 1 1 613E2FFC
-P 5450 1750
-F 0 "L5" V 5635 1750 50  0000 C CNN
-F 1 "4.7pH" V 5544 1750 50  0000 C CNN
-F 2 "Inductor_SMD:L_0805_2012Metric" H 5450 1750 50  0001 C CNN
-F 3 "~" H 5450 1750 50  0001 C CNN
-	1    5450 1750
-	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:C_Small C32
@@ -110,27 +99,6 @@ F 3 "" H 10300 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PE4259:PE4259 IC4
-U 1 1 61579BD0
-P 7150 1750
-F 0 "IC4" H 7900 2015 50  0000 C CNN
-F 1 "PE4259" H 7900 1924 50  0000 C CNN
-F 2 "PE4259:SOT65P210X110-6N" H 8500 1850 50  0001 L CNN
-F 3 "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-2/sf-00045491.pdf" H 8500 1750 50  0001 L CNN
-F 4 "PART NUMBER ONLY" H 8500 1650 50  0001 L CNN "Description"
-F 5 "1.1" H 8500 1550 50  0001 L CNN "Height"
-F 6 "Peregrine Semiconductor" H 8500 1450 50  0001 L CNN "Manufacturer_Name"
-F 7 "PE4259" H 8500 1350 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "" H 8500 1250 50  0001 L CNN "Mouser Part Number"
-F 9 "" H 8500 1150 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 8500 1050 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 8500 950 50  0001 L CNN "Arrow Price/Stock"
-	1    7150 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7150 1850 6900 1850
-$Comp
 L power:GNDREF #PWR052
 U 1 1 6158B203
 P 6900 1950
@@ -141,8 +109,6 @@ F 3 "" H 6900 1950 50  0001 C CNN
 	1    6900 1950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8650 1850 8850 1850
 $Comp
 L power:GNDREF #PWR059
 U 1 1 615A7E73
@@ -156,39 +122,11 @@ F 3 "" H 9100 1300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8650 1000 8650 1750
-$Comp
-L power:+3.3V #PWR?
-U 1 1 615B53A5
-P 8650 950
-AR Path="/615B53A5" Ref="#PWR?"  Part="1" 
-AR Path="/613C9E7C/615B53A5" Ref="#PWR056"  Part="1" 
-F 0 "#PWR056" H 8650 800 50  0001 C CNN
-F 1 "+3.3V" H 8665 1123 50  0000 C CNN
-F 2 "" H 8650 950 50  0001 C CNN
-F 3 "" H 8650 950 50  0001 C CNN
-	1    8650 950 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8650 1950 8650 2500
 Wire Wire Line
 	8650 2500 8500 2500
-$Comp
-L Device:R_Small_US R8
-U 1 1 615B8AE5
-P 8250 2500
-F 0 "R8" V 8455 2500 50  0000 C CNN
-F 1 "1k" V 8364 2500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 8250 2500 50  0001 C CNN
-F 3 "~" H 8250 2500 50  0001 C CNN
-	1    8250 2500
-	0    -1   -1   0   
-$EndComp
 Connection ~ 8500 2500
-Wire Wire Line
-	8500 2500 8350 2500
-Wire Wire Line
-	8150 2500 8000 2500
 $Comp
 L power:GNDREF #PWR055
 U 1 1 615BC3B1
@@ -232,9 +170,6 @@ Wire Wire Line
 	8500 2850 8500 2950
 Wire Wire Line
 	8650 1000 9100 1000
-Wire Wire Line
-	8650 950  8650 1000
-Connection ~ 8650 1000
 $Comp
 L Device:C_Small C40
 U 1 1 618AE7EC
@@ -743,27 +678,6 @@ F 3 "" H 10500 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PE4259:PE4259 IC5
-U 1 1 616FC78A
-P 7500 4400
-F 0 "IC5" H 8250 4665 50  0000 C CNN
-F 1 "PE4259" H 8250 4574 50  0000 C CNN
-F 2 "PE4259:SOT65P210X110-6N" H 8850 4500 50  0001 L CNN
-F 3 "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-2/sf-00045491.pdf" H 8850 4400 50  0001 L CNN
-F 4 "PART NUMBER ONLY" H 8850 4300 50  0001 L CNN "Description"
-F 5 "1.1" H 8850 4200 50  0001 L CNN "Height"
-F 6 "Peregrine Semiconductor" H 8850 4100 50  0001 L CNN "Manufacturer_Name"
-F 7 "PE4259" H 8850 4000 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "" H 8850 3900 50  0001 L CNN "Mouser Part Number"
-F 9 "" H 8850 3800 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 8850 3700 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 8850 3600 50  0001 L CNN "Arrow Price/Stock"
-	1    7500 4400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9000 4500 9200 4500
-$Comp
 L power:GNDREF #PWR060
 U 1 1 616FC791
 P 9450 3950
@@ -776,39 +690,11 @@ F 3 "" H 9450 3950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9000 3650 9000 4400
-$Comp
-L power:+3.3V #PWR?
-U 1 1 616FC798
-P 9000 3600
-AR Path="/616FC798" Ref="#PWR?"  Part="1" 
-AR Path="/613C9E7C/616FC798" Ref="#PWR058"  Part="1" 
-F 0 "#PWR058" H 9000 3450 50  0001 C CNN
-F 1 "+3.3V" H 9015 3773 50  0000 C CNN
-F 2 "" H 9000 3600 50  0001 C CNN
-F 3 "" H 9000 3600 50  0001 C CNN
-	1    9000 3600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9000 4600 9000 5150
 Wire Wire Line
 	9000 5150 8850 5150
-$Comp
-L Device:R_Small_US R9
-U 1 1 616FC7A0
-P 8600 5150
-F 0 "R9" V 8805 5150 50  0000 C CNN
-F 1 "1k" V 8714 5150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 8600 5150 50  0001 C CNN
-F 3 "~" H 8600 5150 50  0001 C CNN
-	1    8600 5150
-	0    -1   -1   0   
-$EndComp
 Connection ~ 8850 5150
-Wire Wire Line
-	8850 5150 8700 5150
-Wire Wire Line
-	8500 5150 8350 5150
 $Comp
 L power:GNDREF #PWR057
 U 1 1 616FC7AA
@@ -852,11 +738,6 @@ Wire Wire Line
 	8850 5500 8850 5600
 Wire Wire Line
 	9000 3650 9450 3650
-Wire Wire Line
-	9000 3600 9000 3650
-Connection ~ 9000 3650
-Wire Wire Line
-	7500 4500 7300 4500
 $Comp
 L power:GNDREF #PWR054
 U 1 1 6170CC4E
@@ -1242,8 +1123,8 @@ L Device:C_Small C18
 U 1 1 6185FEE3
 P 1800 1600
 F 0 "C18" H 1892 1646 50  0000 L CNN
-F 1 "13pF" H 1892 1555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1800 1600 50  0001 C CNN
+F 1 "10pF" H 1892 1555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1800 1600 50  0001 C CNN
 F 3 "~" H 1800 1600 50  0001 C CNN
 	1    1800 1600
 	1    0    0    -1  
@@ -1253,8 +1134,8 @@ L Device:C_Small C17
 U 1 1 618602FB
 P 1050 1600
 F 0 "C17" H 1142 1646 50  0000 L CNN
-F 1 "13pF" H 1142 1555 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1050 1600 50  0001 C CNN
+F 1 "10pF" H 1142 1555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1050 1600 50  0001 C CNN
 F 3 "~" H 1050 1600 50  0001 C CNN
 	1    1050 1600
 	1    0    0    -1  
@@ -1415,33 +1296,17 @@ Wire Wire Line
 Wire Wire Line
 	9600 1850 10100 1850
 Wire Wire Line
-	6900 4400 7500 4400
-Wire Wire Line
 	2550 5350 5350 5350
 Wire Wire Line
 	9400 4500 9750 4500
 Wire Wire Line
 	9950 4500 10300 4500
 Text HLabel 2450 4000 3    50   Input ~ 0
-LoRa_RXTX_CTRL
-Text HLabel 8350 5150 0    50   Input ~ 0
-LoRa_RXTX_CTRL
+LoRa_TX_EN
 Text HLabel 8000 2500 0    50   Input ~ 0
-LoRa_RXTX_CTRL
-Wire Wire Line
-	6800 1750 6800 2150
-Wire Wire Line
-	6800 2150 7050 2150
-Wire Wire Line
-	7050 2150 7050 1950
-Wire Wire Line
-	7050 1950 7150 1950
+LoRa_TX_EN
 Wire Wire Line
 	6950 2750 7000 2750
-Wire Wire Line
-	7000 2750 7000 1750
-Wire Wire Line
-	7000 1750 7150 1750
 Connection ~ 6950 2750
 $Comp
 L Device:R_Small_US R13
@@ -1475,5 +1340,93 @@ F 2 "Resistor_SMD:R_0805_2012Metric" H 9850 4500 50  0001 C CNN
 F 3 "~" H 9850 4500 50  0001 C CNN
 	1    9850 4500
 	0    -1   -1   0   
+$EndComp
+$Comp
+L CKRF2406XS03-C2:CG2409M2 IC2
+U 1 1 618F80DD
+P 7400 1750
+F 0 "IC2" H 7900 2015 50  0000 C CNN
+F 1 "CG2409M2" H 7900 1924 50  0000 C CNN
+F 2 "CKRF2406XS03-C2:CKRF2406XS03-C2" H 8250 1850 50  0001 L CNN
+F 3 "http://www.cel.com/pdf/datasheets/CG2409M2.pdf" H 8250 1750 50  0001 L CNN
+F 4 "RF Switch ICs 50-3800MHz SPDT 802.11a/b/g/n/ac" H 8250 1650 50  0001 L CNN "Description"
+F 5 "1" H 8250 1550 50  0001 L CNN "Height"
+F 6 "CEL" H 8250 1450 50  0001 L CNN "Manufacturer_Name"
+F 7 "CG2409M2" H 8250 1350 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "551-CG2409M2" H 8250 1250 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/CEL/CG2409M2?qs=u4fy%2FsgLU9MlvcZ1yCdQTQ%3D%3D" H 8250 1150 50  0001 L CNN "Mouser Price/Stock"
+F 10 "CG2409M2" H 8250 1050 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/cg2409m2/california-eastern-laboratories" H 8250 950 50  0001 L CNN "Arrow Price/Stock"
+	1    7400 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 1750 7400 1750
+Wire Wire Line
+	6900 1850 7400 1850
+Wire Wire Line
+	7000 2750 7000 1950
+Wire Wire Line
+	7000 1950 7400 1950
+Wire Wire Line
+	8000 2500 8500 2500
+Wire Wire Line
+	8400 1950 8650 1950
+Wire Wire Line
+	8400 1850 8850 1850
+Wire Wire Line
+	8400 1750 8650 1750
+Wire Wire Line
+	8650 1000 8500 1000
+Connection ~ 8650 1000
+Text HLabel 8500 1000 0    50   Input ~ 0
+LoRa_RX_EN
+Text HLabel 9000 3650 0    50   Input ~ 0
+LoRa_TX_EN
+Text HLabel 8350 5150 0    50   Input ~ 0
+LoRa_RX_EN
+$Comp
+L CKRF2406XS03-C2:CG2409M2 IC4
+U 1 1 6194DE19
+P 7750 4400
+F 0 "IC4" H 8250 4665 50  0000 C CNN
+F 1 "CG2409M2" H 8250 4574 50  0000 C CNN
+F 2 "CKRF2406XS03-C2:CKRF2406XS03-C2" H 8600 4500 50  0001 L CNN
+F 3 "http://www.cel.com/pdf/datasheets/CG2409M2.pdf" H 8600 4400 50  0001 L CNN
+F 4 "RF Switch ICs 50-3800MHz SPDT 802.11a/b/g/n/ac" H 8600 4300 50  0001 L CNN "Description"
+F 5 "1" H 8600 4200 50  0001 L CNN "Height"
+F 6 "CEL" H 8600 4100 50  0001 L CNN "Manufacturer_Name"
+F 7 "CG2409M2" H 8600 4000 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "551-CG2409M2" H 8600 3900 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/CEL/CG2409M2?qs=u4fy%2FsgLU9MlvcZ1yCdQTQ%3D%3D" H 8600 3800 50  0001 L CNN "Mouser Price/Stock"
+F 10 "CG2409M2" H 8600 3700 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/cg2409m2/california-eastern-laboratories" H 8600 3600 50  0001 L CNN "Arrow Price/Stock"
+	1    7750 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 4400 7750 4400
+Wire Wire Line
+	7300 4500 7750 4500
+Wire Wire Line
+	7500 4600 7750 4600
+Wire Wire Line
+	8750 4400 9000 4400
+Wire Wire Line
+	8750 4500 9200 4500
+Wire Wire Line
+	8750 4600 9000 4600
+Wire Wire Line
+	8350 5150 8850 5150
+$Comp
+L Device:C_Small C53
+U 1 1 6181B241
+P 5450 1750
+F 0 "C53" V 5221 1750 50  0000 C CNN
+F 1 "4.7pF" V 5312 1750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5450 1750 50  0001 C CNN
+F 3 "~" H 5450 1750 50  0001 C CNN
+	1    5450 1750
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

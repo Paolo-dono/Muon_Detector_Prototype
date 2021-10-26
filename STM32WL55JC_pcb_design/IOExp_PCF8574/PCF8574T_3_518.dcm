@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCF8574T_3,518
+D NXP - PCF8574T/3,518 - IC, I/O EXPANDER, 8BIT, SOIC16
+K
+F http://www.nxp.com/docs/en/data-sheet/PCF8574_PCF8574A.pdf
+$ENDCMP
+#
+#End Doc Library

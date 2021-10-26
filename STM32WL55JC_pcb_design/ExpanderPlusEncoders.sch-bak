@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 4 5
 Title ""
 Date ""
 Rev ""
@@ -14,454 +14,535 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	2000 2500 2100 2500
+	2450 4500 2550 4500
 Wire Wire Line
-	2000 2600 2100 2600
+	2450 4600 2550 4600
 Wire Wire Line
-	2000 2700 2100 2700
+	2450 4700 2550 4700
 Wire Wire Line
-	2000 2800 2100 2800
+	2450 4800 2550 4800
 Wire Wire Line
-	2000 2900 2100 2900
+	2450 4900 2550 4900
 Wire Wire Line
-	2000 3000 2100 3000
+	2450 5000 2550 5000
 Wire Wire Line
-	2000 3100 2100 3100
+	2450 5100 2550 5100
 Wire Wire Line
-	2000 3200 2100 3200
+	2450 5200 2550 5200
 Wire Wire Line
-	2000 3400 2100 3400
+	2450 5400 2550 5400
 Wire Wire Line
-	2000 3300 2100 3300
-Text GLabel 2100 2500 2    50   Input ~ 0
+	2450 5300 2550 5300
+Text GLabel 2550 4500 2    50   Input ~ 0
 ENC1_1
-Text GLabel 2100 2600 2    50   Input ~ 0
+Text GLabel 2550 4600 2    50   Input ~ 0
 ENC1_2
-Text GLabel 2100 2700 2    50   Input ~ 0
+Text GLabel 2550 4700 2    50   Input ~ 0
 ENC1_3
-Text GLabel 2100 2800 2    50   Input ~ 0
+Text GLabel 2550 4800 2    50   Input ~ 0
 ENC1_4
-Text GLabel 2100 2900 2    50   Input ~ 0
+Text GLabel 2550 4900 2    50   Input ~ 0
 ENC2_1
-Text GLabel 2100 3000 2    50   Input ~ 0
+Text GLabel 2550 5000 2    50   Input ~ 0
 ENC2_2
-Text GLabel 2100 3100 2    50   Input ~ 0
+Text GLabel 2550 5100 2    50   Input ~ 0
 ENC2_3
-Text GLabel 2100 3200 2    50   Input ~ 0
+Text GLabel 2550 5200 2    50   Input ~ 0
 ENC2_4
 Wire Wire Line
-	2950 2500 3050 2500
+	3400 4500 3500 4500
 Wire Wire Line
-	2950 2600 3050 2600
+	3400 4600 3500 4600
 Wire Wire Line
-	2950 2700 3050 2700
+	3400 4700 3500 4700
 Wire Wire Line
-	2950 2800 3050 2800
+	3400 4800 3500 4800
 Wire Wire Line
-	2950 2900 3050 2900
+	3400 4900 3500 4900
 Wire Wire Line
-	2950 3000 3050 3000
+	3400 5000 3500 5000
 Wire Wire Line
-	2950 3100 3050 3100
+	3400 5100 3500 5100
 Wire Wire Line
-	2950 3200 3050 3200
+	3400 5200 3500 5200
 Wire Wire Line
-	2950 3400 3050 3400
+	3400 5400 3500 5400
 Wire Wire Line
-	2950 3300 3050 3300
-Text GLabel 3050 2500 2    50   Input ~ 0
+	3400 5300 3500 5300
+Text GLabel 3500 4500 2    50   Input ~ 0
 ENC3_1
-Text GLabel 3050 2600 2    50   Input ~ 0
+Text GLabel 3500 4600 2    50   Input ~ 0
 ENC3_2
-Text GLabel 3050 2700 2    50   Input ~ 0
+Text GLabel 3500 4700 2    50   Input ~ 0
 ENC3_3
-Text GLabel 3050 2800 2    50   Input ~ 0
+Text GLabel 3500 4800 2    50   Input ~ 0
 ENC3_4
-Text GLabel 3050 2900 2    50   Input ~ 0
+Text GLabel 3500 4900 2    50   Input ~ 0
 ENC4_1
-Text GLabel 3050 3000 2    50   Input ~ 0
+Text GLabel 3500 5000 2    50   Input ~ 0
 ENC4_2
-Text GLabel 3050 3100 2    50   Input ~ 0
+Text GLabel 3500 5100 2    50   Input ~ 0
 ENC4_3
-Text GLabel 3050 3200 2    50   Input ~ 0
+Text GLabel 3500 5200 2    50   Input ~ 0
 ENC4_4
 Wire Wire Line
-	2000 3700 2100 3700
+	2450 5700 2550 5700
 Wire Wire Line
-	2000 3800 2100 3800
+	2450 5800 2550 5800
 Wire Wire Line
-	2000 3900 2100 3900
+	2450 5900 2550 5900
 Wire Wire Line
-	2000 4000 2100 4000
+	2450 6000 2550 6000
 Wire Wire Line
-	2000 4100 2100 4100
+	2450 6100 2550 6100
 Wire Wire Line
-	2000 4200 2100 4200
+	2450 6200 2550 6200
 Wire Wire Line
-	2000 4300 2100 4300
+	2450 6300 2550 6300
 Wire Wire Line
-	2000 4400 2100 4400
+	2450 6400 2550 6400
 Wire Wire Line
-	2000 4600 2100 4600
+	2450 6600 2550 6600
 Wire Wire Line
-	2000 4500 2100 4500
-Text GLabel 2100 3700 2    50   Input ~ 0
+	2450 6500 2550 6500
+Text GLabel 2550 5700 2    50   Input ~ 0
 ENC5_1
-Text GLabel 2100 3800 2    50   Input ~ 0
+Text GLabel 2550 5800 2    50   Input ~ 0
 ENC5_2
-Text GLabel 2100 3900 2    50   Input ~ 0
+Text GLabel 2550 5900 2    50   Input ~ 0
 ENC5_3
-Text GLabel 2100 4000 2    50   Input ~ 0
+Text GLabel 2550 6000 2    50   Input ~ 0
 ENC5_4
-Text GLabel 2100 4100 2    50   Input ~ 0
+Text GLabel 2550 6100 2    50   Input ~ 0
 ENC6_1
-Text GLabel 2100 4200 2    50   Input ~ 0
+Text GLabel 2550 6200 2    50   Input ~ 0
 ENC6_2
-Text GLabel 2100 4300 2    50   Input ~ 0
+Text GLabel 2550 6300 2    50   Input ~ 0
 ENC6_3
-Text GLabel 2100 4400 2    50   Input ~ 0
+Text GLabel 2550 6400 2    50   Input ~ 0
 ENC6_4
 Wire Wire Line
-	2950 3700 3050 3700
+	3400 5700 3500 5700
 Wire Wire Line
-	2950 3800 3050 3800
+	3400 5800 3500 5800
 Wire Wire Line
-	2950 3900 3050 3900
+	3400 5900 3500 5900
 Wire Wire Line
-	2950 4000 3050 4000
+	3400 6000 3500 6000
 Wire Wire Line
-	2950 4100 3050 4100
+	3400 6100 3500 6100
 Wire Wire Line
-	2950 4200 3050 4200
+	3400 6200 3500 6200
 Wire Wire Line
-	2950 4300 3050 4300
+	3400 6300 3500 6300
 Wire Wire Line
-	2950 4400 3050 4400
+	3400 6400 3500 6400
 Wire Wire Line
-	2950 4600 3050 4600
+	3400 6600 3500 6600
 Wire Wire Line
-	2950 4500 3050 4500
-Text GLabel 3050 3700 2    50   Input ~ 0
+	3400 6500 3500 6500
+Text GLabel 3500 5700 2    50   Input ~ 0
 ENC7_1
-Text GLabel 3050 3800 2    50   Input ~ 0
+Text GLabel 3500 5800 2    50   Input ~ 0
 ENC7_2
-Text GLabel 3050 3900 2    50   Input ~ 0
+Text GLabel 3500 5900 2    50   Input ~ 0
 ENC7_3
-Text GLabel 3050 4000 2    50   Input ~ 0
+Text GLabel 3500 6000 2    50   Input ~ 0
 ENC7_4
-Text GLabel 3050 4100 2    50   Input ~ 0
+Text GLabel 3500 6100 2    50   Input ~ 0
 ENC8_1
-Text GLabel 3050 4200 2    50   Input ~ 0
+Text GLabel 3500 6200 2    50   Input ~ 0
 ENC8_2
-Text GLabel 3050 4300 2    50   Input ~ 0
+Text GLabel 3500 6300 2    50   Input ~ 0
 ENC8_3
-Text GLabel 3050 4400 2    50   Input ~ 0
+Text GLabel 3500 6400 2    50   Input ~ 0
 ENC8_4
-$Comp
-L CY8C9540A-24PVXIT:CY8C9540A-24PVXIT IC2
-U 1 1 617A80A5
-P 5700 2400
-F 0 "IC2" H 7100 2665 50  0000 C CNN
-F 1 "CY8C9540A-24PVXIT" H 7100 2574 50  0000 C CNN
-F 2 "CY8C9540A-24PVXIT:SOP64P1035X279-48N" H 8350 2500 50  0001 L CNN
-F 3 "https://www.cypress.com/file/37971/download" H 8350 2400 50  0001 L CNN
-F 4 "Interface - I/O Expanders 11Kb 40 IO EXPANDER W/EEPROM" H 8350 2300 50  0001 L CNN "Description"
-F 5 "2.794" H 8350 2200 50  0001 L CNN "Height"
-F 6 "Cypress Semiconductor" H 8350 2100 50  0001 L CNN "Manufacturer_Name"
-F 7 "CY8C9540A-24PVXIT" H 8350 2000 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "727-CY8C9540A24PVXIT" H 8350 1900 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Cypress-Semiconductor/CY8C9540A-24PVXIT?qs=C8%252BlaUTZcL8qELts9Tb83A%3D%3D" H 8350 1800 50  0001 L CNN "Mouser Price/Stock"
-F 10 "CY8C9540A-24PVXIT" H 8350 1700 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/cy8c9540a-24pvxit/cypress-semiconductor" H 8350 1600 50  0001 L CNN "Arrow Price/Stock"
-	1    5700 2400
-	1    0    0    -1  
-$EndComp
-Text GLabel 5700 3200 0    50   Input ~ 0
-ENC3_1
-Text GLabel 5700 3300 0    50   Input ~ 0
-ENC3_2
-Text GLabel 5700 3400 0    50   Input ~ 0
-ENC3_3
-Text GLabel 5700 3500 0    50   Input ~ 0
-ENC3_4
-Text GLabel 5700 3700 0    50   Input ~ 0
-ENC4_1
-Text GLabel 5700 3800 0    50   Input ~ 0
-ENC4_2
-Text GLabel 5700 3900 0    50   Input ~ 0
-ENC4_3
-Text GLabel 5700 4000 0    50   Input ~ 0
-ENC4_4
-Text GLabel 8500 3300 2    50   Input ~ 0
-ENC7_1
-Text GLabel 8500 3400 2    50   Input ~ 0
-ENC7_2
-Text GLabel 8500 3500 2    50   Input ~ 0
-ENC7_3
-Text GLabel 8500 3600 2    50   Input ~ 0
-ENC7_4
-Text GLabel 8500 3800 2    50   Input ~ 0
-ENC8_1
-Text GLabel 8500 3900 2    50   Input ~ 0
-ENC8_2
-Text GLabel 8500 4000 2    50   Input ~ 0
-ENC8_3
-Text GLabel 8500 4100 2    50   Input ~ 0
-ENC8_4
-Text GLabel 5700 2400 0    50   Input ~ 0
-ENC1_1
-Text GLabel 5700 2500 0    50   Input ~ 0
-ENC1_2
-Text GLabel 5700 2600 0    50   Input ~ 0
-ENC1_3
-Text GLabel 5700 2700 0    50   Input ~ 0
-ENC1_4
-Text GLabel 5700 2800 0    50   Input ~ 0
-ENC2_1
-Text GLabel 5700 2900 0    50   Input ~ 0
-ENC2_2
-Text GLabel 5700 3000 0    50   Input ~ 0
-ENC2_3
-Text GLabel 5700 3100 0    50   Input ~ 0
-ENC2_4
-Text GLabel 8500 2500 2    50   Input ~ 0
-ENC5_1
-Text GLabel 8500 2600 2    50   Input ~ 0
-ENC5_2
-Text GLabel 8500 2700 2    50   Input ~ 0
-ENC5_3
-Text GLabel 8500 2800 2    50   Input ~ 0
-ENC5_4
-Text GLabel 8500 2900 2    50   Input ~ 0
-ENC6_1
-Text GLabel 8500 3000 2    50   Input ~ 0
-ENC6_2
-Text GLabel 8500 3100 2    50   Input ~ 0
-ENC6_3
-Text GLabel 8500 3200 2    50   Input ~ 0
-ENC6_4
-Text HLabel 4300 4300 0    50   Input ~ 0
+Text HLabel 4850 2300 2    50   Input ~ 0
 EXP_SCL
-Text HLabel 4300 4400 0    50   Input ~ 0
+Text HLabel 4850 2200 2    50   Input ~ 0
 EXP_SDA
-Text HLabel 5700 3600 0    50   Input ~ 0
-EXP_GND
-Text HLabel 5700 4700 0    50   Input ~ 0
-EXP_GND
-Text HLabel 9100 2400 2    50   Input ~ 0
-EXP_VDD
-$Comp
-L Switch:SW_MEC_5E SW2
-U 1 1 617D8DFE
-P 9300 3800
-F 0 "SW2" H 9300 4185 50  0000 C CNN
-F 1 "SW_MEC_5E" H 9300 4094 50  0000 C CNN
-F 2 "EVQ-P2F02K:EVQP2V02W" H 9300 4100 50  0001 C CNN
-F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371" H 9300 4100 50  0001 C CNN
-	1    9300 3800
-	1    0    0    -1  
-$EndComp
-Text HLabel 8500 4600 2    50   Input ~ 0
-EXP_INT
-Text HLabel 2100 3400 2    50   Input ~ 0
+Text HLabel 2550 5400 2    50   Input ~ 0
 OR1
-Text HLabel 3050 3400 2    50   Input ~ 0
+Text HLabel 3500 5400 2    50   Input ~ 0
 OR2
-Text HLabel 2100 4600 2    50   Input ~ 0
+Text HLabel 2550 6600 2    50   Input ~ 0
 OR3
-Text HLabel 3050 4600 2    50   Input ~ 0
+Text HLabel 3500 6600 2    50   Input ~ 0
 OR4
-Wire Wire Line
-	5700 4600 5150 4600
-Wire Wire Line
-	5150 4600 5150 4650
-$Comp
-L Device:R_US R4
-U 1 1 617EA2B5
-P 5150 4800
-F 0 "R4" H 5218 4846 50  0000 L CNN
-F 1 "200" H 5218 4755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 5190 4790 50  0001 C CNN
-F 3 "~" H 5150 4800 50  0001 C CNN
-	1    5150 4800
-	1    0    0    -1  
-$EndComp
-Text HLabel 5150 4950 0    50   Input ~ 0
-EXP_GND
-Text GLabel 2100 3300 2    50   Input ~ 0
+Text GLabel 2550 5300 2    50   Input ~ 0
 ENC_RST_1
-Text GLabel 3050 3300 2    50   Input ~ 0
+Text GLabel 3500 5300 2    50   Input ~ 0
 ENC_RST_2
-Text GLabel 2100 4500 2    50   Input ~ 0
+Text GLabel 2550 6500 2    50   Input ~ 0
 ENC_RST_3
-Text GLabel 3050 4500 2    50   Input ~ 0
+Text GLabel 3500 6500 2    50   Input ~ 0
 ENC_RST_4
-Text GLabel 5700 4200 0    50   Input ~ 0
-ENC_RST_1
-Text GLabel 5700 4100 0    50   Input ~ 0
-ENC_RST_2
-Text GLabel 8500 4300 2    50   Input ~ 0
-ENC_RST_3
-Text GLabel 8500 4200 2    50   Input ~ 0
-ENC_RST_4
-Text HLabel 9750 3350 1    50   Input ~ 0
-EXP_VDD
-Wire Wire Line
-	9500 3700 9550 3700
-Wire Wire Line
-	8500 3700 9000 3700
 $Comp
 L Connector_Generic:Conn_01x10 J12
 U 1 1 61681B58
-P 1800 3000
-F 0 "J12" H 1718 2275 50  0000 C CNN
-F 1 "Conn_01x10" H 1718 2366 50  0000 C CNN
-F 2 "Connector_JST:JST_GH_BM10B-GHS-TBT_1x10-1MP_P1.25mm_Vertical" H 1800 3000 50  0001 C CNN
-F 3 "~" H 1800 3000 50  0001 C CNN
-	1    1800 3000
+P 2250 5000
+F 0 "J12" H 2168 4275 50  0000 C CNN
+F 1 "Conn_01x10" H 2168 4366 50  0000 C CNN
+F 2 "Connector_JST:JST_GH_BM10B-GHS-TBT_1x10-1MP_P1.25mm_Vertical" H 2250 5000 50  0001 C CNN
+F 3 "~" H 2250 5000 50  0001 C CNN
+	1    2250 5000
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x10 J14
 U 1 1 6168626C
-P 2750 3000
-F 0 "J14" H 2668 2275 50  0000 C CNN
-F 1 "Conn_01x10" H 2668 2366 50  0000 C CNN
-F 2 "Connector_JST:JST_GH_BM10B-GHS-TBT_1x10-1MP_P1.25mm_Vertical" H 2750 3000 50  0001 C CNN
-F 3 "~" H 2750 3000 50  0001 C CNN
-	1    2750 3000
+P 3200 5000
+F 0 "J14" H 3118 4275 50  0000 C CNN
+F 1 "Conn_01x10" H 3118 4366 50  0000 C CNN
+F 2 "Connector_JST:JST_GH_BM10B-GHS-TBT_1x10-1MP_P1.25mm_Vertical" H 3200 5000 50  0001 C CNN
+F 3 "~" H 3200 5000 50  0001 C CNN
+	1    3200 5000
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x10 J13
 U 1 1 61686F2D
-P 1800 4200
-F 0 "J13" H 1718 3475 50  0000 C CNN
-F 1 "Conn_01x10" H 1718 3566 50  0000 C CNN
-F 2 "Connector_JST:JST_GH_BM10B-GHS-TBT_1x10-1MP_P1.25mm_Vertical" H 1800 4200 50  0001 C CNN
-F 3 "~" H 1800 4200 50  0001 C CNN
-	1    1800 4200
+P 2250 6200
+F 0 "J13" H 2168 5475 50  0000 C CNN
+F 1 "Conn_01x10" H 2168 5566 50  0000 C CNN
+F 2 "Connector_JST:JST_GH_BM10B-GHS-TBT_1x10-1MP_P1.25mm_Vertical" H 2250 6200 50  0001 C CNN
+F 3 "~" H 2250 6200 50  0001 C CNN
+	1    2250 6200
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x10 J15
 U 1 1 61688106
-P 2750 4200
-F 0 "J15" H 2668 3475 50  0000 C CNN
-F 1 "Conn_01x10" H 2668 3566 50  0000 C CNN
-F 2 "Connector_JST:JST_GH_BM10B-GHS-TBT_1x10-1MP_P1.25mm_Vertical" H 2750 4200 50  0001 C CNN
-F 3 "~" H 2750 4200 50  0001 C CNN
-	1    2750 4200
+P 3200 6200
+F 0 "J15" H 3118 5475 50  0000 C CNN
+F 1 "Conn_01x10" H 3118 5566 50  0000 C CNN
+F 2 "Connector_JST:JST_GH_BM10B-GHS-TBT_1x10-1MP_P1.25mm_Vertical" H 3200 6200 50  0001 C CNN
+F 3 "~" H 3200 6200 50  0001 C CNN
+	1    3200 6200
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R_Small_US R2
 U 1 1 617B7086
-P 4650 4000
-F 0 "R2" H 4718 4046 50  0000 L CNN
-F 1 "2.2k" H 4718 3955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 4650 4000 50  0001 C CNN
-F 3 "~" H 4650 4000 50  0001 C CNN
-	1    4650 4000
+P 4450 2000
+F 0 "R2" H 4518 2046 50  0000 L CNN
+F 1 "2.2k" H 4518 1955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4450 2000 50  0001 C CNN
+F 3 "~" H 4450 2000 50  0001 C CNN
+	1    4450 2000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4300 4400 4650 4400
 $Comp
 L Device:R_Small_US R3
 U 1 1 617C398A
-P 4950 4000
-F 0 "R3" H 5018 4046 50  0000 L CNN
-F 1 "2.2k" H 5018 3955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 4950 4000 50  0001 C CNN
-F 3 "~" H 4950 4000 50  0001 C CNN
-	1    4950 4000
+P 4750 2000
+F 0 "R3" H 4818 2046 50  0000 L CNN
+F 1 "2.2k" H 4818 1955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4750 2000 50  0001 C CNN
+F 3 "~" H 4750 2000 50  0001 C CNN
+	1    4750 2000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4950 3900 4950 3800
+	4750 1900 4750 1800
 Wire Wire Line
-	4650 3900 4650 3800
+	4450 1900 4450 1800
 Wire Wire Line
-	4650 3800 4800 3800
+	4450 1800 4600 1800
 Wire Wire Line
-	4650 4100 4650 4400
-Connection ~ 4650 4400
+	4600 1800 4600 1700
+Connection ~ 4600 1800
 Wire Wire Line
-	4300 4300 4950 4300
-Wire Wire Line
-	4800 3800 4800 3700
-Connection ~ 4800 3800
-Wire Wire Line
-	4800 3800 4950 3800
-Text HLabel 4800 3700 0    50   Input ~ 0
+	4600 1800 4750 1800
+Text HLabel 4600 1700 0    50   Input ~ 0
 EXP_VDD
+Wire Wire Line
+	4750 2100 4750 2300
 $Comp
-L Device:R_Small_US R5
-U 1 1 615EB589
-P 9750 3500
-F 0 "R5" H 9818 3546 50  0000 L CNN
-F 1 "1k" H 9818 3455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 9750 3500 50  0001 C CNN
-F 3 "~" H 9750 3500 50  0001 C CNN
-	1    9750 3500
+L PCF8575TS_1_118:PCF8575TS_1,118 IC5
+U 1 1 617975E0
+P 2550 2100
+F 0 "IC5" H 3100 2365 50  0000 C CNN
+F 1 "PCF8575TS_1,118" H 3100 2274 50  0000 C CNN
+F 2 "PCF8575TS_1_118:SOP65P775X200-24N" H 3500 2200 50  0001 L CNN
+F 3 "http://www.nxp.com/docs/en/data-sheet/PCF8575C.pdf" H 3500 2100 50  0001 L CNN
+F 4 "Interface - I/O Expanders" H 3500 2000 50  0001 L CNN "Description"
+F 5 "2" H 3500 1900 50  0001 L CNN "Height"
+F 6 "NXP" H 3500 1800 50  0001 L CNN "Manufacturer_Name"
+F 7 "PCF8575TS/1,118" H 3500 1700 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "771-PCF8575TSDB-T" H 3500 1600 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/PCF8575TS-1118?qs=LOCUfHb8d9vMl26vh33NWQ%3D%3D" H 3500 1500 50  0001 L CNN "Mouser Price/Stock"
+F 10 "PCF8575TS/1,118" H 3500 1400 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/pcf8575ts1118/nxp-semiconductors?region=nac" H 3500 1300 50  0001 L CNN "Arrow Price/Stock"
+	1    2550 2100
+	1    0    0    -1  
+$EndComp
+Text GLabel 2550 2400 0    50   Input ~ 0
+ENC1_1
+Text GLabel 2550 2500 0    50   Input ~ 0
+ENC1_2
+Text GLabel 2550 2600 0    50   Input ~ 0
+ENC1_3
+Text GLabel 2550 2700 0    50   Input ~ 0
+ENC1_4
+Text GLabel 2550 2800 0    50   Input ~ 0
+ENC2_1
+Text GLabel 2550 2900 0    50   Input ~ 0
+ENC2_2
+Text GLabel 2550 3000 0    50   Input ~ 0
+ENC2_3
+Text GLabel 2550 3100 0    50   Input ~ 0
+ENC2_4
+Text GLabel 3650 2500 2    50   Input ~ 0
+ENC5_1
+Text GLabel 3650 2600 2    50   Input ~ 0
+ENC5_2
+Text GLabel 3650 2700 2    50   Input ~ 0
+ENC5_3
+Text GLabel 3650 2800 2    50   Input ~ 0
+ENC5_4
+Text GLabel 3650 2900 2    50   Input ~ 0
+ENC6_1
+Text GLabel 3650 3000 2    50   Input ~ 0
+ENC6_2
+Text GLabel 3650 3100 2    50   Input ~ 0
+ENC6_3
+Text GLabel 3650 3200 2    50   Input ~ 0
+ENC6_4
+$Comp
+L PCF8575TS_1_118:PCF8575TS_1,118 IC6
+U 1 1 6179DD7A
+P 5950 2150
+F 0 "IC6" H 6500 2415 50  0000 C CNN
+F 1 "PCF8575TS_1,118" H 6500 2324 50  0000 C CNN
+F 2 "PCF8575TS_1_118:SOP65P775X200-24N" H 6900 2250 50  0001 L CNN
+F 3 "http://www.nxp.com/docs/en/data-sheet/PCF8575C.pdf" H 6900 2150 50  0001 L CNN
+F 4 "Interface - I/O Expanders" H 6900 2050 50  0001 L CNN "Description"
+F 5 "2" H 6900 1950 50  0001 L CNN "Height"
+F 6 "NXP" H 6900 1850 50  0001 L CNN "Manufacturer_Name"
+F 7 "PCF8575TS/1,118" H 6900 1750 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "771-PCF8575TSDB-T" H 6900 1650 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/PCF8575TS-1118?qs=LOCUfHb8d9vMl26vh33NWQ%3D%3D" H 6900 1550 50  0001 L CNN "Mouser Price/Stock"
+F 10 "PCF8575TS/1,118" H 6900 1450 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/pcf8575ts1118/nxp-semiconductors?region=nac" H 6900 1350 50  0001 L CNN "Arrow Price/Stock"
+	1    5950 2150
+	1    0    0    -1  
+$EndComp
+Text GLabel 5950 2450 0    50   Input ~ 0
+ENC3_1
+Text GLabel 5950 2550 0    50   Input ~ 0
+ENC3_2
+Text GLabel 5950 2650 0    50   Input ~ 0
+ENC3_3
+Text GLabel 5950 2750 0    50   Input ~ 0
+ENC3_4
+Text GLabel 5950 2850 0    50   Input ~ 0
+ENC4_1
+Text GLabel 5950 2950 0    50   Input ~ 0
+ENC4_2
+Text GLabel 5950 3050 0    50   Input ~ 0
+ENC4_3
+Text GLabel 5950 3150 0    50   Input ~ 0
+ENC4_4
+Text GLabel 7050 2550 2    50   Input ~ 0
+ENC7_1
+Text GLabel 7050 2650 2    50   Input ~ 0
+ENC7_2
+Text GLabel 7050 2750 2    50   Input ~ 0
+ENC7_3
+Text GLabel 7050 2850 2    50   Input ~ 0
+ENC7_4
+Text GLabel 7050 2950 2    50   Input ~ 0
+ENC8_1
+Text GLabel 7050 3050 2    50   Input ~ 0
+ENC8_2
+Text GLabel 7050 3150 2    50   Input ~ 0
+ENC8_3
+Text GLabel 7050 3250 2    50   Input ~ 0
+ENC8_4
+$Comp
+L Interface_Expansion:PCF8574 U1
+U 1 1 617A5451
+P 8700 2700
+F 0 "U1" H 8700 3581 50  0000 C CNN
+F 1 "PCF8574" H 8700 3490 50  0000 C CNN
+F 2 "PCF8574T_3_518:SOIC127P1032X265-16N" H 8700 2700 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/PCF8574_PCF8574A.pdf" H 8700 2700 50  0001 C CNN
+	1    8700 2700
+	1    0    0    -1  
+$EndComp
+Text GLabel 9200 2300 2    50   Input ~ 0
+ENC_RST_1
+Text GLabel 9200 3000 2    50   Input ~ 0
+ENC_RST_3
+Text GLabel 9200 2400 2    50   Input ~ 0
+ENC_RST_2
+Text GLabel 9200 2900 2    50   Input ~ 0
+ENC_RST_4
+$Comp
+L Device:R_Small_US R8
+U 1 1 617A64C6
+P 2250 2000
+F 0 "R8" H 2318 2046 50  0000 L CNN
+F 1 "2.2k" H 2318 1955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 2250 2000 50  0001 C CNN
+F 3 "~" H 2250 2000 50  0001 C CNN
+	1    2250 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R9
+U 1 1 617A7284
+P 5700 2050
+F 0 "R9" H 5768 2096 50  0000 L CNN
+F 1 "2.2k" H 5768 2005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5700 2050 50  0001 C CNN
+F 3 "~" H 5700 2050 50  0001 C CNN
+	1    5700 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R16
+U 1 1 617A7F02
+P 7950 3000
+F 0 "R16" H 8018 3046 50  0000 L CNN
+F 1 "2.2k" H 8018 2955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7950 3000 50  0001 C CNN
+F 3 "~" H 7950 3000 50  0001 C CNN
+	1    7950 3000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9750 3600 9750 3700
+	7950 3100 8200 3100
+Text HLabel 7950 2900 0    50   Input ~ 0
+EXP_VDD
+Text HLabel 5700 1950 0    50   Input ~ 0
+EXP_VDD
+Text HLabel 2250 1900 0    50   Input ~ 0
+EXP_VDD
 Wire Wire Line
-	9750 3400 9750 3350
-Text HLabel 5700 4500 0    50   Input ~ 0
-EXP_3
-Text HLabel 8500 4400 2    50   Input ~ 0
-EXP_0
-Text HLabel 8500 4500 2    50   Input ~ 0
-EXP_1
-Text HLabel 8500 4700 2    50   Input ~ 0
-EXP_2
+	2250 2100 2550 2100
 Wire Wire Line
-	4650 4400 5700 4400
+	5700 2150 5950 2150
+Text HLabel 5700 2150 0    50   Input ~ 0
+EXP_INT2
+Text HLabel 2250 2100 0    50   Input ~ 0
+EXP_INT1
+Text HLabel 7950 3100 0    50   Input ~ 0
+EXP_INT3
 Wire Wire Line
-	4950 4100 4950 4300
-Connection ~ 4950 4300
-Wire Wire Line
-	4950 4300 5700 4300
-Wire Wire Line
-	9000 3700 9000 3900
-Wire Wire Line
-	9000 3900 9500 3900
-Wire Wire Line
-	9500 3900 9500 3800
-Connection ~ 9000 3700
-Wire Wire Line
-	9000 3700 9100 3700
-Wire Wire Line
-	9100 3800 9100 4000
-Wire Wire Line
-	9100 4000 9550 4000
-Wire Wire Line
-	9550 4000 9550 3700
-Connection ~ 9550 3700
-Wire Wire Line
-	9550 3700 9750 3700
-$Comp
-L Device:C_Small C49
-U 1 1 6192549B
-P 9000 2500
-F 0 "C49" H 9092 2546 50  0000 L CNN
-F 1 "100nF" H 9092 2455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 9000 2500 50  0001 C CNN
-F 3 "~" H 9000 2500 50  0001 C CNN
-	1    9000 2500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8500 2400 9000 2400
-Wire Wire Line
-	9000 2400 9100 2400
-Connection ~ 9000 2400
-Text HLabel 9100 2600 2    50   Input ~ 0
+	2550 2200 2550 2300
+Text HLabel 2550 2200 0    50   Input ~ 0
+EXP_GND
+Text HLabel 3650 2400 2    50   Input ~ 0
 EXP_GND
 Wire Wire Line
-	9000 2600 9100 2600
+	5950 2250 5950 2350
+Text HLabel 7050 2450 2    50   Input ~ 0
+EXP_VDD
+$Comp
+L Device:C_Small C50
+U 1 1 617B3F29
+P 7200 1950
+F 0 "C50" H 7292 1996 50  0000 L CNN
+F 1 "100nF" H 7292 1905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7200 1950 50  0001 C CNN
+F 3 "~" H 7200 1950 50  0001 C CNN
+	1    7200 1950
+	1    0    0    -1  
+$EndComp
+Text HLabel 7200 2050 2    50   Input ~ 0
+EXP_GND
+Text HLabel 7200 1850 2    50   Input ~ 0
+EXP_VDD
+Wire Wire Line
+	7200 1850 7050 1850
+Wire Wire Line
+	7050 1850 7050 2150
+$Comp
+L Device:C_Small C49
+U 1 1 617BAA64
+P 3800 1950
+F 0 "C49" H 3892 1996 50  0000 L CNN
+F 1 "100nF" H 3892 1905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3800 1950 50  0001 C CNN
+F 3 "~" H 3800 1950 50  0001 C CNN
+	1    3800 1950
+	1    0    0    -1  
+$EndComp
+Text HLabel 3800 2050 2    50   Input ~ 0
+EXP_GND
+Text HLabel 3800 1850 2    50   Input ~ 0
+EXP_VDD
+Wire Wire Line
+	3800 1850 3650 1850
+Wire Wire Line
+	3650 1850 3650 2100
+$Comp
+L Device:C_Small C51
+U 1 1 617C5179
+P 8850 1850
+F 0 "C51" H 8942 1896 50  0000 L CNN
+F 1 "100nF" H 8942 1805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8850 1850 50  0001 C CNN
+F 3 "~" H 8850 1850 50  0001 C CNN
+	1    8850 1850
+	1    0    0    -1  
+$EndComp
+Text HLabel 8850 1950 2    50   Input ~ 0
+EXP_GND
+Text HLabel 8850 1750 2    50   Input ~ 0
+EXP_VDD
+Wire Wire Line
+	8850 1750 8700 1750
+Wire Wire Line
+	8700 1750 8700 2000
+Wire Wire Line
+	8200 2600 8050 2600
+Wire Wire Line
+	8050 2600 8050 2800
+Wire Wire Line
+	8050 2800 8200 2800
+Text HLabel 8050 2800 0    50   Input ~ 0
+EXP_GND
+Wire Wire Line
+	8200 2700 7950 2700
+Text HLabel 7950 2700 0    50   Input ~ 0
+EXP_VDD
+Text HLabel 9200 2500 2    50   Input ~ 0
+EXP_P2
+Text HLabel 9200 2600 2    50   Input ~ 0
+EXP_P3
+Text HLabel 9200 2700 2    50   Input ~ 0
+EXP_P4
+Text HLabel 9200 2800 2    50   Input ~ 0
+EXP_P5
+Text HLabel 8700 3400 2    50   Input ~ 0
+EXP_GND
+Text HLabel 5950 3250 0    50   Input ~ 0
+EXP_GND
+Text HLabel 2550 3200 0    50   Input ~ 0
+EXP_GND
+Wire Wire Line
+	3650 2300 4750 2300
+Wire Wire Line
+	3650 2200 4450 2200
+Wire Wire Line
+	4450 2200 4450 2100
+Wire Wire Line
+	4450 2200 4850 2200
+Connection ~ 4450 2200
+Wire Wire Line
+	4750 2300 4850 2300
+Connection ~ 4750 2300
+Text HLabel 7050 2250 2    50   Input ~ 0
+EXP_SDA
+Text HLabel 8200 2400 0    50   Input ~ 0
+EXP_SDA
+Text HLabel 7050 2350 2    50   Input ~ 0
+EXP_SCL
+Text HLabel 8200 2300 0    50   Input ~ 0
+EXP_SCL
+Text HLabel 5950 2250 0    50   Input ~ 0
+EXP_GND
 $EndSCHEMATC

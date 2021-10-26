@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -285,7 +285,7 @@ $EndComp
 Wire Wire Line
 	8000 1500 8400 1500
 Connection ~ 8000 1500
-Text HLabel 8400 1500 2    50   Input ~ 0
+Text HLabel 8700 1500 2    50   Input ~ 0
 5V
 Wire Wire Line
 	8000 1600 8000 1500
@@ -461,4 +461,43 @@ NoConn ~ 2800 5100
 NoConn ~ 2800 5200
 NoConn ~ 3700 5200
 NoConn ~ 3700 5300
+$Comp
+L Device:LED D3
+U 1 1 61783DC8
+P 8400 1650
+F 0 "D3" V 8439 1532 50  0000 R CNN
+F 1 "LED" V 8348 1532 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 8400 1650 50  0001 C CNN
+F 3 "~" H 8400 1650 50  0001 C CNN
+	1    8400 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R5
+U 1 1 61784C9F
+P 8400 1900
+F 0 "R5" H 8468 1946 50  0000 L CNN
+F 1 "1k" H 8468 1855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 8400 1900 50  0001 C CNN
+F 3 "~" H 8400 1900 50  0001 C CNN
+	1    8400 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 617856FF
+P 8400 2000
+AR Path="/617856FF" Ref="#PWR?"  Part="1" 
+AR Path="/612ED5EB/617856FF" Ref="#PWR?"  Part="1" 
+AR Path="/612BE788/617856FF" Ref="#PWR058"  Part="1" 
+F 0 "#PWR058" H 8400 1750 50  0001 C CNN
+F 1 "GNDREF" H 8405 1827 50  0000 C CNN
+F 2 "" H 8400 2000 50  0001 C CNN
+F 3 "" H 8400 2000 50  0001 C CNN
+	1    8400 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 1500 8700 1500
+Connection ~ 8400 1500
 $EndSCHEMATC
