@@ -352,14 +352,14 @@ Connection ~ 6450 4750
 $Comp
 L power:GNDREF #PWR?
 U 1 1 619ADEBE
-P 5850 5450
+P 5850 5500
 AR Path="/619ADEBE" Ref="#PWR?"  Part="1" 
 AR Path="/61317136/619ADEBE" Ref="#PWR065"  Part="1" 
-F 0 "#PWR065" H 5850 5200 50  0001 C CNN
-F 1 "GNDREF" H 5855 5277 50  0000 C CNN
-F 2 "" H 5850 5450 50  0001 C CNN
-F 3 "" H 5850 5450 50  0001 C CNN
-	1    5850 5450
+F 0 "#PWR065" H 5850 5250 50  0001 C CNN
+F 1 "GNDREF" H 5855 5327 50  0000 C CNN
+F 2 "" H 5850 5500 50  0001 C CNN
+F 3 "" H 5850 5500 50  0001 C CNN
+	1    5850 5500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -465,4 +465,93 @@ Wire Wire Line
 NoConn ~ 5850 5050
 NoConn ~ 7050 4350
 NoConn ~ 7850 4450
+$Comp
+L Connector:TestPoint TP11
+U 1 1 6182B42E
+P 4200 950
+F 0 "TP11" H 4258 1068 50  0000 L CNN
+F 1 "ACC_VDD" H 4258 977 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 4400 950 50  0001 C CNN
+F 3 "~" H 4400 950 50  0001 C CNN
+	1    4200 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP12
+U 1 1 6182DF32
+P 4650 950
+F 0 "TP12" H 4708 1068 50  0000 L CNN
+F 1 "GND" H 4708 977 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 4850 950 50  0001 C CNN
+F 3 "~" H 4850 950 50  0001 C CNN
+	1    4650 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 5450 5850 5500
+$Comp
+L Connector:TestPoint TP14
+U 1 1 618316B7
+P 5550 950
+F 0 "TP14" H 5608 1068 50  0000 L CNN
+F 1 "GPS_GND" H 5608 977 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 5750 950 50  0001 C CNN
+F 3 "~" H 5750 950 50  0001 C CNN
+	1    5550 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP15
+U 1 1 61831ADD
+P 6000 950
+F 0 "TP15" H 6058 1068 50  0000 L CNN
+F 1 "GPS_VDD" H 6058 977 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 6200 950 50  0001 C CNN
+F 3 "~" H 6200 950 50  0001 C CNN
+	1    6000 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 6186EB6A
+P 4650 950
+AR Path="/6186EB6A" Ref="#PWR?"  Part="1" 
+AR Path="/61317136/6186EB6A" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 4650 700 50  0001 C CNN
+F 1 "GNDREF" H 4655 777 50  0000 C CNN
+F 2 "" H 4650 950 50  0001 C CNN
+F 3 "" H 4650 950 50  0001 C CNN
+	1    4650 950 
+	1    0    0    -1  
+$EndComp
+Text GLabel 4200 950  3    50   Input ~ 0
+VDD
+Text GLabel 5100 950  3    50   Input ~ 0
+VDD
+$Comp
+L power:GNDREF #PWR?
+U 1 1 618717D5
+P 5550 950
+AR Path="/618717D5" Ref="#PWR?"  Part="1" 
+AR Path="/61317136/618717D5" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 5550 700 50  0001 C CNN
+F 1 "GNDREF" H 5555 777 50  0000 C CNN
+F 2 "" H 5550 950 50  0001 C CNN
+F 3 "" H 5550 950 50  0001 C CNN
+	1    5550 950 
+	1    0    0    -1  
+$EndComp
+Text GLabel 6000 950  3    50   Input ~ 0
+VDD
+$Comp
+L Connector:TestPoint TP13
+U 1 1 6182E7DC
+P 5100 950
+F 0 "TP13" H 5158 1068 50  0000 L CNN
+F 1 "Temp_VDD" H 5158 977 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 5300 950 50  0001 C CNN
+F 3 "~" H 5300 950 50  0001 C CNN
+	1    5100 950 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -519,9 +519,9 @@ Text HLabel 9200 2800 2    50   Input ~ 0
 EXP_P5
 Text HLabel 8700 3400 2    50   Input ~ 0
 EXP_GND
-Text HLabel 5950 3250 0    50   Input ~ 0
+Text HLabel 5800 3250 0    50   Input ~ 0
 EXP_GND
-Text HLabel 2550 3200 0    50   Input ~ 0
+Text HLabel 2400 3200 0    50   Input ~ 0
 EXP_GND
 Wire Wire Line
 	3650 2300 4750 2300
@@ -544,5 +544,48 @@ EXP_SCL
 Text HLabel 8200 2300 0    50   Input ~ 0
 EXP_SCL
 Text HLabel 5950 2250 0    50   Input ~ 0
+EXP_GND
+Wire Wire Line
+	2400 3200 2550 3200
+Wire Wire Line
+	5800 3250 5950 3250
+$Comp
+L Connector:TestPoint TP5
+U 1 1 61852EEA
+P 5150 750
+F 0 "TP5" H 5208 868 50  0000 L CNN
+F 1 "EXP_VDD1" H 5208 777 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 5350 750 50  0001 C CNN
+F 3 "~" H 5350 750 50  0001 C CNN
+	1    5150 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP7
+U 1 1 61853FC4
+P 5600 750
+F 0 "TP7" H 5658 868 50  0000 L CNN
+F 1 "EXP_VDD3" H 5658 777 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 5800 750 50  0001 C CNN
+F 3 "~" H 5800 750 50  0001 C CNN
+	1    5600 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP8
+U 1 1 618543B9
+P 6050 750
+F 0 "TP8" H 6108 868 50  0000 L CNN
+F 1 "EXP_GND" H 6108 777 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 6250 750 50  0001 C CNN
+F 3 "~" H 6250 750 50  0001 C CNN
+	1    6050 750 
+	1    0    0    -1  
+$EndComp
+Text GLabel 5150 750  3    50   Input ~ 0
+VDD
+Text GLabel 5600 750  3    50   Input ~ 0
+VDD
+Text HLabel 6050 750  3    50   Input ~ 0
 EXP_GND
 $EndSCHEMATC

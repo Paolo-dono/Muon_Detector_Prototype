@@ -1098,7 +1098,6 @@ F 3 "" H 2350 1450 50  0001 C CNN
 	1    2350 1450
 	1    0    0    -1  
 $EndComp
-Connection ~ 2350 1450
 Wire Wire Line
 	2150 1150 3050 1150
 Wire Wire Line
@@ -1429,4 +1428,40 @@ F 3 "~" H 5450 1750 50  0001 C CNN
 	1    5450 1750
 	0    1    1    0   
 $EndComp
+$Comp
+L Connector:TestPoint TP3
+U 1 1 6183469E
+P 4450 750
+F 0 "TP3" H 4508 868 50  0000 L CNN
+F 1 "LoRa_VDD" H 4508 777 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 4650 750 50  0001 C CNN
+F 3 "~" H 4650 750 50  0001 C CNN
+	1    4450 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 61849598
+P 4900 750
+F 0 "TP4" H 4958 868 50  0000 L CNN
+F 1 "LoRa_GND" H 4958 777 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 5100 750 50  0001 C CNN
+F 3 "~" H 5100 750 50  0001 C CNN
+	1    4900 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0102
+U 1 1 61875071
+P 4900 750
+F 0 "#PWR0102" H 4900 500 50  0001 C CNN
+F 1 "GNDREF" H 4905 577 50  0000 C CNN
+F 2 "" H 4900 750 50  0001 C CNN
+F 3 "" H 4900 750 50  0001 C CNN
+	1    4900 750 
+	1    0    0    -1  
+$EndComp
+Connection ~ 2350 1450
+Text GLabel 4450 750  3    50   Input ~ 0
+VDD
 $EndSCHEMATC

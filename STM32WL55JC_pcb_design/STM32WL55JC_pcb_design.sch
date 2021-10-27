@@ -1527,4 +1527,39 @@ Text GLabel 10700 2400 2    50   Input ~ 0
 EXP_P4
 Text GLabel 10700 2300 2    50   Input ~ 0
 EXP_P5
+Text GLabel 6900 7700 3    50   Input ~ 0
+VDD
+$Comp
+L power:GNDREF #PWR0101
+U 1 1 61855E4F
+P 7400 7700
+F 0 "#PWR0101" H 7400 7450 50  0001 C CNN
+F 1 "GNDREF" H 7405 7527 50  0000 C CNN
+F 2 "" H 7400 7700 50  0001 C CNN
+F 3 "" H 7400 7700 50  0001 C CNN
+	1    7400 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP1
+U 1 1 618577EB
+P 6900 7700
+F 0 "TP1" H 6958 7818 50  0000 L CNN
+F 1 "Micro_VDD" H 6958 7727 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 7100 7700 50  0001 C CNN
+F 3 "~" H 7100 7700 50  0001 C CNN
+	1    6900 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 61858267
+P 7400 7700
+F 0 "TP2" H 7458 7818 50  0000 L CNN
+F 1 "Micro_GND" H 7458 7727 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 7600 7700 50  0001 C CNN
+F 3 "~" H 7600 7700 50  0001 C CNN
+	1    7400 7700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
