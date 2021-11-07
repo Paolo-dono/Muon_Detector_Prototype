@@ -294,77 +294,77 @@ Wire Wire Line
 $Comp
 L power:GNDREF #PWR?
 U 1 1 61575FCF
-P 3700 5650
+P 3650 5250
 AR Path="/61575FCF" Ref="#PWR?"  Part="1" 
 AR Path="/612ED5EB/61575FCF" Ref="#PWR?"  Part="1" 
 AR Path="/612BE788/61575FCF" Ref="#PWR078"  Part="1" 
 AR Path="/616239B7/61575FCF" Ref="#PWR?"  Part="1" 
-F 0 "#PWR078" H 3700 5400 50  0001 C CNN
-F 1 "GNDREF" H 3705 5477 50  0000 C CNN
-F 2 "" H 3700 5650 50  0001 C CNN
-F 3 "" H 3700 5650 50  0001 C CNN
-	1    3700 5650
+F 0 "#PWR078" H 3650 5000 50  0001 C CNN
+F 1 "GNDREF" H 3655 5077 50  0000 C CNN
+F 2 "" H 3650 5250 50  0001 C CNN
+F 3 "" H 3650 5250 50  0001 C CNN
+	1    3650 5250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 61575FD6
-P 3700 4450
+P 3650 4050
 AR Path="/61575FD6" Ref="#PWR?"  Part="1" 
 AR Path="/612ED5EB/61575FD6" Ref="#PWR?"  Part="1" 
 AR Path="/612BE788/61575FD6" Ref="#PWR079"  Part="1" 
 AR Path="/616239B7/61575FD6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR079" H 3700 4300 50  0001 C CNN
-F 1 "+5V" H 3715 4623 50  0000 C CNN
-F 2 "" H 3700 4450 50  0001 C CNN
-F 3 "" H 3700 4450 50  0001 C CNN
-	1    3700 4450
+F 0 "#PWR079" H 3650 3900 50  0001 C CNN
+F 1 "+5V" H 3665 4223 50  0000 C CNN
+F 2 "" H 3650 4050 50  0001 C CNN
+F 3 "" H 3650 4050 50  0001 C CNN
+	1    3650 4050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 61575FEE
-P 3750 4550
+P 3700 4150
 AR Path="/61575FEE" Ref="#FLG?"  Part="1" 
 AR Path="/612ED5EB/61575FEE" Ref="#FLG?"  Part="1" 
 AR Path="/612BE788/61575FEE" Ref="#FLG04"  Part="1" 
 AR Path="/616239B7/61575FEE" Ref="#FLG?"  Part="1" 
-F 0 "#FLG04" H 3750 4625 50  0001 C CNN
-F 1 "PWR_FLAG" V 3750 4678 50  0000 L CNN
-F 2 "" H 3750 4550 50  0001 C CNN
-F 3 "~" H 3750 4550 50  0001 C CNN
-	1    3750 4550
+F 0 "#FLG04" H 3700 4225 50  0001 C CNN
+F 1 "PWR_FLAG" V 3700 4278 50  0000 L CNN
+F 2 "" H 3700 4150 50  0001 C CNN
+F 3 "~" H 3700 4150 50  0001 C CNN
+	1    3700 4150
 	0    1    1    0   
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 61575FF4
-P 3850 5550
+P 3800 5150
 AR Path="/61575FF4" Ref="#FLG?"  Part="1" 
 AR Path="/612ED5EB/61575FF4" Ref="#FLG?"  Part="1" 
 AR Path="/612BE788/61575FF4" Ref="#FLG03"  Part="1" 
 AR Path="/616239B7/61575FF4" Ref="#FLG?"  Part="1" 
-F 0 "#FLG03" H 3850 5625 50  0001 C CNN
-F 1 "PWR_FLAG" V 3850 5678 50  0000 L CNN
-F 2 "" H 3850 5550 50  0001 C CNN
-F 3 "~" H 3850 5550 50  0001 C CNN
-	1    3850 5550
+F 0 "#FLG03" H 3800 5225 50  0001 C CNN
+F 1 "PWR_FLAG" V 3800 5278 50  0000 L CNN
+F 2 "" H 3800 5150 50  0001 C CNN
+F 3 "~" H 3800 5150 50  0001 C CNN
+	1    3800 5150
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3700 4450 3700 4550
+	3650 4050 3650 4150
 Wire Wire Line
-	3750 4550 3700 4550
-Connection ~ 3700 4550
+	3700 4150 3650 4150
+Connection ~ 3650 4150
 Wire Wire Line
-	3700 4550 3700 5100
+	3650 4150 3650 4700
 Wire Wire Line
-	3700 5400 3700 5550
+	3650 5000 3650 5150
 Wire Wire Line
-	3850 5550 3700 5550
-Connection ~ 3700 5550
+	3800 5150 3650 5150
+Connection ~ 3650 5150
 Wire Wire Line
-	3700 5550 3700 5650
+	3650 5150 3650 5250
 Wire Wire Line
 	7950 2500 8500 2500
 Wire Wire Line
@@ -412,10 +412,10 @@ Connection ~ 7200 2000
 Wire Wire Line
 	7200 2000 8000 2000
 $Comp
-L Device:Ferrite_Bead Ferrite_Bead1
+L Device:Ferrite_Bead FB1
 U 1 1 618D34DD
 P 5900 2500
-F 0 "Ferrite_Bead1" V 5626 2500 50  0000 C CNN
+F 0 "FB1" V 5626 2500 50  0000 C CNN
 F 1 "100@100MHz" V 5717 2500 50  0000 C CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 5830 2500 50  0001 C CNN
 F 3 "~" H 5900 2500 50  0001 C CNN
@@ -441,26 +441,26 @@ $EndComp
 $Comp
 L USB-A-S-F-B-TH:USB-A-S-F-B-TH J20
 U 1 1 61713A38
-P 2800 5100
-F 0 "J20" H 3250 5365 50  0000 C CNN
-F 1 "USB-A-S-F-B-TH" H 3250 5274 50  0000 C CNN
-F 2 "USBASFBTH:USBASFBTH" H 3550 5200 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/5/USB-A-S-F-B-TH.pdf" H 3550 5100 50  0001 L CNN
-F 4 "Samtec USB-A Series, Right Angle Through Hole, Version 2.0 Type A USB Connector, Receptacle" H 3550 5000 50  0001 L CNN "Description"
-F 5 "7.21" H 3550 4900 50  0001 L CNN "Height"
-F 6 "SAMTEC" H 3550 4800 50  0001 L CNN "Manufacturer_Name"
-F 7 "USB-A-S-F-B-TH" H 3550 4700 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "200-USBASFBTH" H 3550 4600 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Samtec/USB-A-S-F-B-TH?qs=rHlcMk0NooKVOBvqWBwf1Q%3D%3D" H 3550 4500 50  0001 L CNN "Mouser Price/Stock"
-F 10 "USB-A-S-F-B-TH" H 3550 4400 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/usb-a-s-f-b-th/samtec" H 3550 4300 50  0001 L CNN "Arrow Price/Stock"
-	1    2800 5100
+P 2750 4700
+F 0 "J20" H 3200 4965 50  0000 C CNN
+F 1 "USB-A-S-F-B-TH" H 3200 4874 50  0000 C CNN
+F 2 "USBASFBTH:USBASFBTH" H 3500 4800 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/5/USB-A-S-F-B-TH.pdf" H 3500 4700 50  0001 L CNN
+F 4 "Samtec USB-A Series, Right Angle Through Hole, Version 2.0 Type A USB Connector, Receptacle" H 3500 4600 50  0001 L CNN "Description"
+F 5 "7.21" H 3500 4500 50  0001 L CNN "Height"
+F 6 "SAMTEC" H 3500 4400 50  0001 L CNN "Manufacturer_Name"
+F 7 "USB-A-S-F-B-TH" H 3500 4300 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "200-USBASFBTH" H 3500 4200 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Samtec/USB-A-S-F-B-TH?qs=rHlcMk0NooKVOBvqWBwf1Q%3D%3D" H 3500 4100 50  0001 L CNN "Mouser Price/Stock"
+F 10 "USB-A-S-F-B-TH" H 3500 4000 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/usb-a-s-f-b-th/samtec" H 3500 3900 50  0001 L CNN "Arrow Price/Stock"
+	1    2750 4700
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2800 5100
-NoConn ~ 2800 5200
-NoConn ~ 3700 5200
-NoConn ~ 3700 5300
+NoConn ~ 2750 4700
+NoConn ~ 2750 4800
+NoConn ~ 3650 4800
+NoConn ~ 3650 4900
 $Comp
 L Device:LED D3
 U 1 1 61783DC8
